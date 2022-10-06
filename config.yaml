@@ -1,0 +1,2 @@
+chosen_columns: ['author', 'title', 'abstract', 'year', 'type_publication', 'doi']
+file_saved_format: json

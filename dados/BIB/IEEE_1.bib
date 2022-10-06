@@ -1,0 +1,1253 @@
+{
+    "exportedDoiLength": 20,
+    "fileName": "acm",
+    "style": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"in-text\" version=\"1.0\" demote-non-dropping-particle=\"sort-only\" default-locale=\"en-US\">\n    <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->\n    <info>\n        <title>BibTeX ACM citation style</title>\n        <id>http://www.zotero.org/styles/bibtex-acm-citation-style</id>\n        <link href=\"http://www.zotero.org/styles/bibtex-acm-citation-style\" rel=\"self\"/>\n        <link href=\"http://www.bibtex.org/\" rel=\"documentation\"/>\n        <author>\n            <name>Markus Schaffner</name>\n        </author>\n        <contributor>\n            <name>Richard Karnesky</name>\n            <email>karnesky+zotero@gmail.com</email>\n            <uri>http://arc.nucapt.northwestern.edu/Richard_Karnesky</uri>\n        </contributor>\n        <category citation-format=\"author-date\"/>\n        <category field=\"generic-base\"/>\n        <updated>2018-06-11T10:52:49+00:00</updated>\n        <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n    </info>\n    <macro name=\"zotero2bibtexType\">\n        <choose>\n            <if type=\"BILL BOOK GRAPHIC LEGAL_CASE LEGISLATION MOTION_PICTURE SONG\" match=\"any\">\n                <choose>\n                    <if genre=\"rfc\"  match=\"any\">\n                       <text value=\"rfc\"/>\n                    </if>\n                     <else-if  genre=\"bibliography\" match=\"any\">\n                        <text value=\"bibliography\"/>\n                    </else-if>\n                    <else-if  genre=\"play_drama\" match=\"any\">\n                        <text value=\"playdrama\"/>\n                    </else-if>\n                    <else-if  genre=\"proceeding\" match=\"any\">\n                        <text value=\"proceedings\"/>\n                    </else-if>\n                    <else-if  genre=\"tech_brief\" match=\"any\">\n                        <text value=\"tech-brief\"/>\n                    </else-if>\n                    <else>\n                       <text value=\"book\"/>\n                    </else>\n                </choose>\n            </if>\n            <else-if type=\"CHAPTER\" match=\"any\">\n                <text value=\"inbook\"/>\n            </else-if>\n            <else-if type=\"ARTICLE ARTICLE_JOURNAL ARTICLE_MAGAZINE ARTICLE_NEWSPAPER\" match=\"any\">\n                <text value=\"article\"/>\n            </else-if>\n            <else-if type=\"THESIS\" match=\"any\">\n                <choose>\n                    <if variable=\"genre\">\n                        <text variable=\"genre\" text-case=\"lowercase\" strip-periods=\"true\"/>\n                    </if>\n                </choose>\n                <text value=\"thesis\"/>\n            </else-if>\n            <else-if type=\"PAPER_CONFERENCE\" match=\"any\">\n                <text value=\"inproceedings\"/>\n            </else-if>\n            <else-if type=\"REPORT\" match=\"any\">\n                <text value=\"techreport\"/>\n            </else-if>\n            <else-if type=\"DATASET\" match=\"any\">\n                <choose>\n                    <if genre=\"software\"  match=\"any\">\n                       <text value=\"software\"/>\n                    </if>\n                    <else>\n                       <text value=\"dataset\"/>\n                    </else>\n                </choose>\n            </else-if>\n            <else>\n                <text value=\"misc\"/>\n            </else>\n        </choose>\n    </macro>\n    <macro name=\"citeKey\">\n           <text variable=\"call-number\"/>\n    </macro>\n    <macro name=\"editor-short\">\n        <names variable=\"editor\">\n            <name form=\"short\" delimiter=\":\" delimiter-precedes-last=\"always\"/>\n        </names>\n    </macro>\n    <macro name=\"author-short\">\n        <names variable=\"author\">\n            <name form=\"short\" delimiter=\":\" delimiter-precedes-last=\"always\"/>\n        </names>\n    </macro>\n    <macro name=\"issued-year\">\n        <date variable=\"issued\">\n            <date-part name=\"year\"/>\n        </date>\n    </macro>\n    <macro name=\"issued-month\">\n        <choose>\n            <if type=\"ARTICLE\" match=\"any\">\n                <date variable=\"issued\">\n                    <date-part name=\"month\" form=\"short\" strip-periods=\"true\" text-case=\"lowercase\"/>\n                </date>\n            </if>\n        </choose>\n    </macro>\n    <macro name=\"issue-date\">\n        <choose>\n            <if type=\"ARTICLE ARTICLE_JOURNAL\" match=\"any\">\n                <choose>\n                    <if variable=\"note\" match=\"none\">\n                        <choose>\n                            <if variable=\"source\">\n                                 <text variable=\"source\"/>\n                            </if>\n                               <else>\n                                 <date date-parts=\"year-month\" form=\"text\" variable=\"issued\"/>\n                               </else>\n                        </choose>\n                    </if>\n                </choose>\n            </if>\n        </choose>\n    </macro>\n    <macro name=\"author\">\n        <names variable=\"author\">\n            <name sort-separator=\", \" delimiter=\" and \" delimiter-precedes-last=\"always\" name-as-sort-order=\"all\"/>\n            <label form=\"long\" text-case=\"capitalize-first\"/>\n        </names>\n    </macro>\n    <macro name=\"editor-translator\">\n        <names variable=\"editor translator\" delimiter=\", \">\n            <name sort-separator=\", \" delimiter=\" and \" delimiter-precedes-last=\"always\" name-as-sort-order=\"all\"/>\n            <label form=\"long\" text-case=\"capitalize-first\"/>\n        </names>\n    </macro>\n    <macro name=\"title\">\n        <choose>\n            <if genre=\"proceeding\" match=\"any\">\n                <text variable=\"container-title-short\" suffix=\": \"/>\n                <text variable=\"title\" text-case=\"title\"/>\n            </if>\n            <else-if type=\"ARTICLE_JOURNAL\" match=\"none\">\n                <text variable=\"title\" text-case=\"title\"/>\n            </else-if>\n        </choose>\n    </macro>\n    <macro name=\"volume\">\n        <choose>\n            <if type=\"ARTICLE BOOK ARTICLE_JOURNAL\" match=\"any\">\n                <text variable=\"volume\" prefix=\"volume = {\" suffix=\"}\"/>\n            </if>\n        </choose>\n    </macro>\n    <macro name=\"DOI\">\n        <choose>\n            <if type=\"ARTICLE PAPER_CONFERENCE\" match=\"any\">\n                <text variable=\"DOI\" prefix=\"doi = {\" suffix=\"}\"/>\n            </if>\n        </choose>\n    </macro>\n    <macro name=\"abstract\">\n        <if match=\"any\" variable=\"abstract\">\n            <text variable=\"abstract\"/>\n        </if>\n    </macro>\n    <macro name=\"URL\">\n        <text variable=\"URL\" prefix=\"url = {\" suffix=\"}\"/>\n    </macro>\n    <macro name=\"container-title\">\n        <choose>\n            <if type=\"CHAPTER PAPER_CONFERENCE\" match=\"any\">\n                <text variable=\"container-title\" prefix=\"booktitle = {\" suffix=\"}\" text-case=\"title\"/>\n            </if>\n            <else-if type=\"ARTICLE ARTICLE_JOURNAL\" match=\"any\">\n                <text variable=\"container-title\" prefix=\"journal = {\" suffix=\"}\" text-case=\"title\"/>\n            </else-if>\n        </choose>\n    </macro>\n    <macro name=\"pages\">\n        <group delimiter=\",&#10;\">\n            <choose>\n                <if match=\"any\" variable=\"collection-number\">\n                    <text variable=\"collection-number\" prefix=\"articleno = {\" suffix=\"}\"/>\n                </if>\n                <else>\n                    <text variable=\"page\" prefix=\"pages = {\" suffix=\"}\"/>\n                </else>\n            </choose>\n            <text variable=\"number-of-pages\" prefix=\"numpages = {\" suffix=\"}\"/>\n        </group>\n    </macro>\n    <macro name=\"edition\">\n        <text variable=\"edition\"/>\n    </macro>\n    <macro name=\"editor\">\n        <choose>\n            <if match=\"any\" type=\"THESIS\">\n                <names variable=\"editor\" delimiter=\", \" prefix=\"advisor = {\" suffix=\"}\">\n                    <name delimiter=\" and \" delimiter-precedes-last=\"always\" name-as-sort-order=\"all\"/>\n                </names>\n            </if>\n            <else>\n               <names variable=\"editor\" delimiter=\", \" prefix=\"editor = {\" suffix=\"}\">\n                   <name delimiter=\" and \" delimiter-precedes-last=\"always\" name-as-sort-order=\"all\"/>\n               </names>\n            </else>\n        </choose>\n    </macro>\n    <macro name=\"keyword\">\n        <choose>\n            <if type=\"ARTICLE PAPER_CONFERENCE DATASET\" match=\"any\">\n                <text variable=\"keyword\" prefix=\"keywords = {\" suffix=\"}\"/>\n            </if>\n        </choose>\n    </macro>\n    <citation et-al-min=\"11\" et-al-use-first=\"10\" disambiguate-add-year-suffix=\"true\" disambiguate-add-names=\"false\" disambiguate-add-givenname=\"false\" collapse=\"year\">\n        <layout delimiter=\"_\">\n            <text macro=\"citeKey\"/>\n        </layout>\n    </citation>\n    <bibliography hanging-indent=\"false\">\n        <layout>\n            <group display=\"right-inline\">\n                <text macro=\"zotero2bibtexType\" prefix=\"@\"/>\n                <group prefix=\"{\" suffix=\"&#10;}\" delimiter=\",&#10;\">\n                    <text macro=\"citeKey\"/>\n                    <text macro=\"author\" prefix=\"author = {\" suffix=\"}\"/>\n                    <text macro=\"editor\"/>\n                    <text macro=\"title\" prefix=\"title = {\" suffix=\"}\"/>\n                    <text macro=\"issued-year\" prefix=\"year = {\" suffix=\"}\"/>\n                    <text macro=\"issue-date\" prefix=\"issue_date = {\" suffix=\"}\"/>\n                    <text variable=\"ISBN\" prefix=\"isbn = {\" suffix=\"}\"/>\n                    <text variable=\"publisher\" prefix=\"publisher = {\" suffix=\"}\"/>\n                    <text variable=\"publisher-place\" prefix=\"address = {\" suffix=\"}\"/>\n                    <text variable=\"chapter-number\" prefix=\"chapter = {\" suffix=\"}\"/>\n                    <text macro=\"edition\" prefix=\"edition = {\" suffix=\"}\"/>\n                    <text macro=\"volume\"/>\n                    <text variable=\"issue\" prefix=\"number = {\" suffix=\"}\"/>\n                    <text variable=\"ISSN\" prefix=\"issn = {\" suffix=\"}\"/>\n                    <text variable=\"archive_location\" prefix=\"archiveLocation = {\" suffix=\"}\"/>\n                    <text macro=\"URL\"/>\n                    <text macro=\"DOI\"/>\n                    <text macro=\"abstract\" prefix=\"abstract = {\" suffix=\"}\"/>\n                    <text variable=\"note\" prefix=\"note = {\" suffix=\"}\"/>\n                    <text macro=\"container-title\"/>\n                    <text macro=\"issued-month\" prefix=\"month = {\" suffix=\"}\"/>\n                    <text macro=\"pages\"/>\n                    <text macro=\"keyword\"/>\n                    <text variable=\"event-place\" prefix=\"location = {\" suffix=\"}\"/>\n                    <choose>\n                        <if type=\"PAPER_CONFERENCE\" match=\"any\">\n                            <text variable=\"collection-title\" prefix=\"series = {\" suffix=\"}\"/>\n                        </if>\n                        <else>\n                            <text variable=\"collection-title\" prefix=\"collection = {\" suffix=\"}\"/>\n                        </else>\n                    </choose>\n                </group>\n            </group>\n        </layout>\n    </bibliography>\n</style>\n",
+    "suffix": "bib",
+    "locale": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<locale xmlns=\"http://purl.org/net/xbiblio/csl\" version=\"1.0\" xml:lang=\"en-US\">\n  <info>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n    <updated>2012-07-04T23:31:02+00:00</updated>\n  </info>\n  <style-options punctuation-in-quote=\"true\"\n                 leading-noise-words=\"a,an,the\"\n                 name-as-sort-order=\"ja zh kr my hu vi\"\n                 name-never-short=\"ja zh kr my hu vi\"/>\n  <date form=\"text\">\n    <date-part name=\"month\" suffix=\" \"/>\n    <date-part name=\"day\" suffix=\", \"/>\n    <date-part name=\"year\"/>\n  </date>\n  <date form=\"numeric\">\n    <date-part name=\"month\" form=\"numeric-leading-zeros\" suffix=\"/\"/>\n    <date-part name=\"day\" form=\"numeric-leading-zeros\" suffix=\"/\"/>\n    <date-part name=\"year\"/>\n  </date>\n  <terms>\n    <term name=\"radio-broadcast\">radio broadcast</term>\n    <term name=\"television-broadcast\">television broadcast</term>\n    <term name=\"podcast\">podcast</term>\n    <term name=\"instant-message\">instant message</term>\n    <term name=\"email\">email</term>\n    <term name=\"number-of-volumes\">\n      <single>volume</single>\n      <multiple>volumes</multiple>\n    </term>\n    <term name=\"accessed\">accessed</term>\n    <term name=\"and\">and</term>\n    <term name=\"and\" form=\"symbol\">&amp;</term>\n    <term name=\"and others\">and others</term>\n    <term name=\"anonymous\">anonymous</term>\n    <term name=\"anonymous\" form=\"short\">anon.</term>\n    <term name=\"at\">at</term>\n    <term name=\"available at\">available at</term>\n    <term name=\"by\">by</term>\n    <term name=\"circa\">circa</term>\n    <term name=\"circa\" form=\"short\">c.</term>\n    <term name=\"cited\">cited</term>\n    <term name=\"edition\">\n      <single>edition</single>\n      <multiple>editions</multiple>\n    </term>\n    <term name=\"edition\" form=\"short\">ed.</term>\n    <term name=\"et-al\">et al.</term>\n    <term name=\"forthcoming\">forthcoming</term>\n    <term name=\"from\">from</term>\n    <term name=\"ibid\">ibid.</term>\n    <term name=\"in\">in</term>\n    <term name=\"in press\">in press</term>\n    <term name=\"internet\">internet</term>\n    <term name=\"interview\">interview</term>\n    <term name=\"letter\">letter</term>\n    <term name=\"no date\">no date</term>\n    <term name=\"no date\" form=\"short\">n.d.</term>\n    <term name=\"online\">online</term>\n    <term name=\"presented at\">presented at the</term>\n    <term name=\"reference\">\n      <single>reference</single>\n      <multiple>references</multiple>\n    </term>\n    <term name=\"reference\" form=\"short\">\n      <single>ref.</single>\n      <multiple>refs.</multiple>\n    </term>\n    <term name=\"retrieved\">retrieved</term>\n    <term name=\"scale\">scale</term>\n    <term name=\"version\">version</term>\n\n    <!-- ANNO DOMINI; BEFORE CHRIST -->\n    <term name=\"ad\">AD</term>\n    <term name=\"bc\">BC</term>\n\n    <!-- PUNCTUATION -->\n    <term name=\"open-quote\">“</term>\n    <term name=\"close-quote\">”</term>\n    <term name=\"open-inner-quote\">‘</term>\n    <term name=\"close-inner-quote\">’</term>\n    <term name=\"page-range-delimiter\">–</term>\n\n    <!-- ORDINALS -->\n    <term name=\"ordinal\">th</term>\n    <term name=\"ordinal-01\">st</term>\n    <term name=\"ordinal-02\">nd</term>\n    <term name=\"ordinal-03\">rd</term>\n    <term name=\"ordinal-11\">th</term>\n    <term name=\"ordinal-12\">th</term>\n    <term name=\"ordinal-13\">th</term>\n\n    <!-- LONG ORDINALS -->\n    <term name=\"long-ordinal-01\">first</term>\n    <term name=\"long-ordinal-02\">second</term>\n    <term name=\"long-ordinal-03\">third</term>\n    <term name=\"long-ordinal-04\">fourth</term>\n    <term name=\"long-ordinal-05\">fifth</term>\n    <term name=\"long-ordinal-06\">sixth</term>\n    <term name=\"long-ordinal-07\">seventh</term>\n    <term name=\"long-ordinal-08\">eighth</term>\n    <term name=\"long-ordinal-09\">ninth</term>\n    <term name=\"long-ordinal-10\">tenth</term>\n\n    <!-- LONG LOCATOR FORMS -->\n    <term name=\"book\">\n      <single>book</single>\n      <multiple>books</multiple>\n    </term>\n    <term name=\"chapter\">\n      <single>chapter</single>\n      <multiple>chapters</multiple>\n    </term>\n    <term name=\"column\">\n      <single>column</single>\n      <multiple>columns</multiple>\n    </term>\n    <term name=\"figure\">\n      <single>figure</single>\n      <multiple>figures</multiple>\n    </term>\n    <term name=\"folio\">\n      <single>folio</single>\n      <multiple>folios</multiple>\n    </term>\n    <term name=\"issue\">\n      <single>number</single>\n      <multiple>numbers</multiple>\n    </term>\n    <term name=\"line\">\n      <single>line</single>\n      <multiple>lines</multiple>\n    </term>\n    <term name=\"note\">\n      <single>note</single>\n      <multiple>notes</multiple>\n    </term>\n    <term name=\"opus\">\n      <single>opus</single>\n      <multiple>opera</multiple>\n    </term>\n    <term name=\"page\">\n      <single>page</single>\n      <multiple>pages</multiple>\n    </term>\n    <term name=\"paragraph\">\n      <single>paragraph</single>\n      <multiple>paragraph</multiple>\n    </term>\n    <term name=\"part\">\n      <single>part</single>\n      <multiple>parts</multiple>\n    </term>\n    <term name=\"section\">\n      <single>section</single>\n      <multiple>sections</multiple>\n    </term>\n    <term name=\"sub verbo\">\n      <single>sub verbo</single>\n      <multiple>sub verbis</multiple>\n    </term>\n    <term name=\"verse\">\n      <single>verse</single>\n      <multiple>verses</multiple>\n    </term>\n    <term name=\"volume\">\n      <single>volume</single>\n      <multiple>volumes</multiple>\n    </term>\n\n    <!-- SHORT LOCATOR FORMS -->\n    <term name=\"book\" form=\"short\">bk.</term>\n    <term name=\"chapter\" form=\"short\">chap.</term>\n    <term name=\"column\" form=\"short\">col.</term>\n    <term name=\"figure\" form=\"short\">fig.</term>\n    <term name=\"folio\" form=\"short\">f.</term>\n    <term name=\"issue\" form=\"short\">no.</term>\n    <term name=\"line\" form=\"short\">l.</term>\n    <term name=\"note\" form=\"short\">n.</term>\n    <term name=\"opus\" form=\"short\">op.</term>\n    <term name=\"page\" form=\"short\">\n      <single>p.</single>\n      <multiple>pp.</multiple>\n    </term>\n    <term name=\"paragraph\" form=\"short\">para.</term>\n    <term name=\"part\" form=\"short\">pt.</term>\n    <term name=\"section\" form=\"short\">sec.</term>\n    <term name=\"sub verbo\" form=\"short\">\n      <single>s.v.</single>\n      <multiple>s.vv.</multiple>\n    </term>\n    <term name=\"verse\" form=\"short\">\n      <single>v.</single>\n      <multiple>vv.</multiple>\n    </term>\n    <term name=\"volume\" form=\"short\">\n      <single>vol.</single>\n      <multiple>vols.</multiple>\n    </term>\n\n    <!-- SYMBOL LOCATOR FORMS -->\n    <term name=\"paragraph\" form=\"symbol\">\n      <single>¶</single>\n      <multiple>¶¶</multiple>\n    </term>\n    <term name=\"section\" form=\"symbol\">\n      <single>§</single>\n      <multiple>§§</multiple>\n    </term>\n\n    <!-- LONG ROLE FORMS -->\n    <term name=\"director\">\n      <single>director</single>\n      <multiple>directors</multiple>\n    </term>\n    <term name=\"editor\">\n      <single>editor</single>\n      <multiple>editors</multiple>\n    </term>\n    <term name=\"editorial-director\">\n      <single>editor</single>\n      <multiple>editors</multiple>\n    </term>\n    <term name=\"illustrator\">\n      <single>illustrator</single>\n      <multiple>illustrators</multiple>\n    </term>\n    <term name=\"translator\">\n      <single>translator</single>\n      <multiple>translators</multiple>\n    </term>\n    <term name=\"editortranslator\">\n      <single>editor &amp; translator</single>\n      <multiple>editors &amp; translators</multiple>\n    </term>\n\n    <!-- SHORT ROLE FORMS -->\n    <term name=\"director\" form=\"short\">\n      <single>dir.</single>\n      <multiple>dirs.</multiple>\n    </term>\n    <term name=\"editor\" form=\"short\">\n      <single>ed.</single>\n      <multiple>eds.</multiple>\n    </term>\n    <term name=\"editorial-director\" form=\"short\">\n      <single>ed.</single>\n      <multiple>eds.</multiple>\n    </term>\n    <term name=\"illustrator\" form=\"short\">\n      <single>ill.</single>\n      <multiple>ills.</multiple>\n    </term>\n    <term name=\"translator\" form=\"short\">\n      <single>tran.</single>\n      <multiple>trans.</multiple>\n    </term>\n    <term name=\"editortranslator\" form=\"short\">\n      <single>ed. &amp; tran.</single>\n      <multiple>eds. &amp; trans.</multiple>\n    </term>\n\n    <!-- VERB ROLE FORMS -->\n    <term name=\"director\" form=\"verb\">directed by</term>\n    <term name=\"editor\" form=\"verb\">edited by</term>\n    <term name=\"editorial-director\" form=\"verb\">edited by</term>\n    <term name=\"illustrator\" form=\"verb\">illustrated by</term>\n    <term name=\"interviewer\" form=\"verb\">interview by</term>\n    <term name=\"recipient\" form=\"verb\">to</term>\n    <term name=\"reviewed-author\" form=\"verb\">by</term>\n    <term name=\"translator\" form=\"verb\">translated by</term>\n    <term name=\"editortranslator\" form=\"verb\">edited &amp; translated by</term>\n\n    <!-- SHORT VERB ROLE FORMS -->\n    <term name=\"container-author\" form=\"verb-short\">by</term>\n    <term name=\"director\" form=\"verb-short\">dir.</term>\n    <term name=\"editor\" form=\"verb-short\">ed.</term>\n    <term name=\"editorial-director\" form=\"verb-short\">ed.</term>\n    <term name=\"illustrator\" form=\"verb-short\">illus.</term>\n    <term name=\"translator\" form=\"verb-short\">trans.</term>\n    <term name=\"editortranslator\" form=\"verb-short\">ed. &amp; trans.</term>\n\n    <!-- LONG MONTH FORMS -->\n    <term name=\"month-01\">January</term>\n    <term name=\"month-02\">February</term>\n    <term name=\"month-03\">March</term>\n    <term name=\"month-04\">April</term>\n    <term name=\"month-05\">May</term>\n    <term name=\"month-06\">June</term>\n    <term name=\"month-07\">July</term>\n    <term name=\"month-08\">August</term>\n    <term name=\"month-09\">September</term>\n    <term name=\"month-10\">October</term>\n    <term name=\"month-11\">November</term>\n    <term name=\"month-12\">December</term>\n\n    <!-- SHORT MONTH FORMS -->\n    <term name=\"month-01\" form=\"short\">Jan.</term>\n    <term name=\"month-02\" form=\"short\">Feb.</term>\n    <term name=\"month-03\" form=\"short\">Mar.</term>\n    <term name=\"month-04\" form=\"short\">Apr.</term>\n    <term name=\"month-05\" form=\"short\">May</term>\n    <term name=\"month-06\" form=\"short\">Jun.</term>\n    <term name=\"month-07\" form=\"short\">Jul.</term>\n    <term name=\"month-08\" form=\"short\">Aug.</term>\n    <term name=\"month-09\" form=\"short\">Sep.</term>\n    <term name=\"month-10\" form=\"short\">Oct.</term>\n    <term name=\"month-11\" form=\"short\">Nov.</term>\n    <term name=\"month-12\" form=\"short\">Dec.</term>\n\n    <!-- SEASONS -->\n    <term name=\"season-01\">Spring</term>\n    <term name=\"season-02\">Summer</term>\n    <term name=\"season-03\">Autumn</term>\n    <term name=\"season-04\">Winter</term>\n  </terms>\n</locale>\n",
+    "contentType": "Application/x-bibtex",
+    "items": [
+        {
+            "10.1145/3141128.3141139": {
+                "id": "10.1145/3141128.3141139",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Ptiček",
+                        "given": "Marina"
+                    },
+                    {
+                        "family": "Vrdoljak",
+                        "given": "Boris"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2017,
+                            9,
+                            17
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2017,
+                            9,
+                            17
+                        ]
+                    ]
+                },
+                "abstract": "Big data are a data trend present around us mainly through Internet -- social networks and smart devices and meters -- mostly without us being aware of them. Also they are a fact that both industry and scientific research needs to deal with. They are interesting from analytical point of view, for they contain knowledge that cannot be ignored and left unused. Traditional system that supports the advanced analytics and knowledge extraction -- data warehouse -- is not able to cope with large amounts of fast incoming various and unstructured data, and may be facing a paradigm shift in terms of utilized concepts, technologies and methodologies, which have become a very active research area in the last few years. This paper provides an overview of research trends important for the big data warehousing, concepts and technologies used for data storage and (ETL) processing, and research approaches done in attempts to empower traditional data warehouses for handling big data.",
+                "call-number": "10.1145/3141128.3141139",
+                "collection-title": "ICCBDC 2017",
+                "container-title": "Proceedings of the 2017 International Conference on Cloud and Big Data Computing",
+                "DOI": "10.1145/3141128.3141139",
+                "event-place": "London, United Kingdom",
+                "ISBN": "9781450353434",
+                "keyword": "NoSQL, MapReduce, databases, big data, NewSQL, data warehouse",
+                "number-of-pages": "5",
+                "page": "6–10",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Big Data and New Data Warehousing Approaches",
+                "URL": "https://doi.org/10.1145/3141128.3141139"
+            }
+        },
+        {
+            "10.1145/3505745.3505751": {
+                "id": "10.1145/3505745.3505751",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Sun",
+                        "given": "Zhaohao"
+                    },
+                    {
+                        "family": "Wu",
+                        "given": "Zhiyou"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2021,
+                            9,
+                            25
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2021,
+                            9,
+                            25
+                        ]
+                    ]
+                },
+                "abstract": "Big data and big data technology have been revolutionizing our work, lives, and society. Socioeconomic development has become a hot topic for academia, industries, organizations, and governments. This paper will examine big data-driven socioeconomic development from a strategic perspective. More specifically, this paper explores the importance of big data by looking at the big characteristics (10 Bigs) of big data. This paper presents a GDDP (gross domestic data products) as a GDP-like data metric for measuring economic performance and social progress. It proposes a strategic model for big data-driven socioeconomic development, which is supported by big data-driven technologies, services, economies, and societies. This research demonstrates that big data-driven SMACS (i.e., social, mobile, analytics, cloud, and service) technologies, services, economies, and societies underpin the big data-driven socioeconomic development. The proposed approach in this paper might facilitate the research and development of big data, big data analytics, socioeconomic development, artificial intelligence (AI), and digital society.",
+                "call-number": "10.1145/3505745.3505751",
+                "collection-title": "ICBDR 2021",
+                "container-title": "2021 the 5th International Conference on Big Data Research (ICBDR)",
+                "DOI": "10.1145/3505745.3505751",
+                "event-place": "Tokyo, Japan",
+                "ISBN": "9781450384339",
+                "keyword": "socioeconomic development, big data analytics, digital society, artificial intelligence (AI), Big data",
+                "number-of-pages": "7",
+                "page": "35–41",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "A Strategic Perspective on Big Data Driven Socioeconomic Development",
+                "URL": "https://doi.org/10.1145/3505745.3505751"
+            }
+        },
+        {
+            "10.1145/2658840.2658845": {
+                "id": "10.1145/2658840.2658845",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Neamtu",
+                        "given": "Rodica"
+                    },
+                    {
+                        "family": "Ahsan",
+                        "given": "Ramoza"
+                    },
+                    {
+                        "family": "Stokes",
+                        "given": "Jeff"
+                    },
+                    {
+                        "family": "Hoxha",
+                        "given": "Armend"
+                    },
+                    {
+                        "family": "Bao",
+                        "given": "Jialiang"
+                    },
+                    {
+                        "family": "Gvozdenovic",
+                        "given": "Stefan"
+                    },
+                    {
+                        "family": "Meyer",
+                        "given": "Ted"
+                    },
+                    {
+                        "family": "Patel",
+                        "given": "Nilesh"
+                    },
+                    {
+                        "family": "Rangan",
+                        "given": "Raghu"
+                    },
+                    {
+                        "family": "Wang",
+                        "given": "Yumou"
+                    },
+                    {
+                        "family": "Zhang",
+                        "given": "Dongyun"
+                    },
+                    {
+                        "family": "Rundensteiner",
+                        "given": "Elke A."
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2014,
+                            9,
+                            1
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2014,
+                            9,
+                            1
+                        ]
+                    ]
+                },
+                "abstract": "In an era where Big Data can greatly impact a broad population, many novel opportunities arise, chief among them the ability to integrate data from diverse sources and \"wrangle\" it to extract novel insights. Conceived as a tool that can help both expert and non-expert users better understand public data, MATTERS was collaboratively developed by the Massachusetts High Tech Council, WPI and other institutions as an analytic platform offering dynamic modeling capabilities. MATTERS is an integrative data source on high fidelity cost and talent competitiveness metrics. Its goal is to extract, integrate and model rich economic, financial, educational and technological information from renowned heterogeneous web data sources ranging from The US Census Bureau, The Bureau of Labor Statistics to the Institute of Education Sciences, all known to be critical factors influencing economic competitiveness of states. This demonstration of MATTERS illustrates how we tackle challenges of data acquisition, cleaning, integration and wrangling into appropriate representations, visualization and story-telling with data in the context of state competitiveness in the high-tech sector.",
+                "call-number": "10.1145/2658840.2658845",
+                "collection-title": "Data4U '14",
+                "container-title": "Proceedings of the First International Workshop on Bringing the Value of \"Big Data\" to Users (Data4U 2014)",
+                "DOI": "10.1145/2658840.2658845",
+                "event-place": "Hangzhou, China",
+                "ISBN": "9781450331869",
+                "keyword": "diverse data sources, data integration, Big data",
+                "number-of-pages": "4",
+                "page": "25–28",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Taming Big Data: Integrating diverse public data sources for economic competitiveness analytics",
+                "URL": "https://doi.org/10.1145/2658840.2658845"
+            }
+        },
+        {
+            "10.1145/2609876.2609887": {
+                "id": "10.1145/2609876.2609887",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Szymczak",
+                        "given": "Samantha"
+                    },
+                    {
+                        "family": "Zelik",
+                        "given": "Daniel J."
+                    },
+                    {
+                        "family": "Elm",
+                        "given": "Wiliam"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2014,
+                            4,
+                            1
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2014,
+                            4,
+                            1
+                        ]
+                    ]
+                },
+                "abstract": "With an increase in data volume, variety, and velocity, Big Data advances tend to focus on technologies such as data gathering, processing, data storage, and analytics, all of which assume that technology is the limiting factor in leveraging Big Data to its fullest potential. The research framework proposed here takes a more holistic look at the Joint Cognitive System, identifying human attention as the limiting resource for employing Big Data for operational use. The framework leverages prior research in attention management, sensory perception, and joint cognitive systems to lay out a Human Centered Big Data Research agenda for designing attention direction support in Big Data environments.",
+                "call-number": "10.1145/2609876.2609887",
+                "collection-title": "HCBDR '14",
+                "container-title": "Proceedings of the 2014 Workshop on Human Centered Big Data Research",
+                "DOI": "10.1145/2609876.2609887",
+                "event-place": "Raleigh, NC, USA",
+                "ISBN": "9781450329385",
+                "keyword": "joint cognitive system, cognitive systems engineering, human-centered Big Data, mental models, Attention direction support, human attention",
+                "number-of-pages": "4",
+                "page": "45–48",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Support for Big Data's Limiting Resource: Human Attention",
+                "URL": "https://doi.org/10.1145/2609876.2609887"
+            }
+        },
+        {
+            "10.1145/3436286.3436291": {
+                "id": "10.1145/3436286.3436291",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Simou",
+                        "given": "Chen"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2020,
+                            4,
+                            28
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2020,
+                            4,
+                            28
+                        ]
+                    ]
+                },
+                "abstract": "This paper aims at exploring the hot topics of big data research in China in the past three years. We choose Big Data, one influential and representative Chinese academic journal as our data source, and download the bibliographic data of 195 articles published in the past three years on this journal from CNKI. In order to gain the general overview of Chinese big data research status quo, we count the high frequency words and distribution of publish years. From the high frequency words list, we can tell that the times of mentions of \"data\" is far more than that of other frequency words, which verifies the fact that data is the most important concept in big data research. In order to extract the hot topics of big data research, we adopt LDA model to generate topics of the 195 research articles. With several experiments, we set the topic number as seven for the best outcome quality. With expert suggestion, we label the seven topics as \"Big data helps government decisions\", \"Internet and management\",\" Artificial intelligence helps public security\",\" Big data promotes information\", \"Big data governance\", \"Artificial intelligence and 5G\",\" Big data prediction\" based on the high frequency words in each topic. Most of the topic labels are linked to 5G, artificial intelligence and other modern techniques, which implies that the big data plays a necessary role in empowering the future techniques. We hope this paper could contribute to further big data research in China.",
+                "call-number": "10.1145/3436286.3436291",
+                "collection-title": "ISBDAI '20",
+                "container-title": "Proceedings of the 2020 2nd International Conference on Big Data and Artificial Intelligence",
+                "DOI": "10.1145/3436286.3436291",
+                "event-place": "Johannesburg, South Africa",
+                "ISBN": "9781450376457",
+                "keyword": "Big Data, Lda Model, Hot Topics",
+                "number-of-pages": "6",
+                "page": "20–25",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Hot Topics of Big Data Research in China",
+                "URL": "https://doi.org/10.1145/3436286.3436291"
+            }
+        },
+        {
+            "10.1145/3010089.3010113": {
+                "id": "10.1145/3010089.3010113",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Albattah",
+                        "given": "Waleed"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2016,
+                            11,
+                            10
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2016,
+                            11,
+                            10
+                        ]
+                    ]
+                },
+                "abstract": "Nowadays, a huge amount of data is being continuously generated in all fields of life by all systems and applications on daily basis. This amount of data is increasing at a rapid pace. The collection of this huge amount of data leads to challenges of storage, analysis, etc. Since, processing this huge amount of data is a challenge for learning algorithms of Artificial Intelligence (machine learning), therefore, in this paper, we target the Sampling of data in big data paradigm. We analyze, how and what will be the role of sampling the training data so that machine algorithms are able to rapidly and precisely build a training model from this huge amount of data. The data normally represents some model. Since, it is extremely difficult to learn a pattern or a model from huge data (precisely and quickly). Thus, this paper studies and analyzes the role of sampling in data sets. Though our data sets cover only specific areas, the training data is objectively similar in nature for machine learning algorithms. We concentrate on how sampling will play its role in specific fields of Artificial Intelligence, i.e., training and testing paradigm and in real time as well. From the experimental analysis, we observe that re-sampling the data has a very slight impact on the over-all classification performance. However, it has greater impact of the execution time as seen from experimental results. Finally, we believe the results in this paper should be viewed as indicative for future research rather than conclusive.",
+                "call-number": "10.1145/3010089.3010113",
+                "collection-number": "28",
+                "collection-title": "BDAW '16",
+                "container-title": "Proceedings of the International Conference on Big Data and Advanced Wireless Technologies",
+                "DOI": "10.1145/3010089.3010113",
+                "event-place": "Blagoevgrad, Bulgaria",
+                "ISBN": "9781450347792",
+                "keyword": "sampling, sample, big data analysis, machine-learning, Big data",
+                "number": "Article 28",
+                "number-of-pages": "5",
+                "page": "1–5",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "The Role of Sampling in Big Data Analysis",
+                "URL": "https://doi.org/10.1145/3010089.3010113"
+            }
+        },
+        {
+            "10.1145/3524383.3533249": {
+                "id": "10.1145/3524383.3533249",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Wang",
+                        "given": "Yan"
+                    },
+                    {
+                        "family": "Yang",
+                        "given": "Wei"
+                    },
+                    {
+                        "family": "Zhang",
+                        "given": "Junli"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2022,
+                            2,
+                            26
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2022,
+                            2,
+                            26
+                        ]
+                    ]
+                },
+                "abstract": "The traditional identification of poor students requires the students to provide certification materials, the confirmation and verification of various departments of the school, and sometimes multiple processes such as targeted home visits or surveys, which may easily lead to false subsidies and students' refusal to apply for reasons such as self-esteem. The development of big data analysis technology provides technical opportunities for campuses to accurately identify poor students. This article first makes full use of the campus card consumption data to establish a poverty indicator system. Due to the large number of indicators, it also screens the indicators based on PCA. Then combined the adaboosting algorithm and the logistic regression algorithm to construct a poor student identification model, obtain the poverty support rate and poverty probability of each student, calculate the student's poverty index, classify the poverty level of the students, and determine the real poor students. Finally, the validity of the model is verified by the consumption data of a college student card in 2019. This method helps to improve the accuracy of poor students' recognition, thereby effectively improving the management level of students.",
+                "call-number": "10.1145/3524383.3533249",
+                "collection-title": "ICBDE '22",
+                "container-title": "Proceedings of the 5th International Conference on Big Data and Education",
+                "DOI": "10.1145/3524383.3533249",
+                "event-place": "Shanghai, China",
+                "ISBN": "9781450395793",
+                "keyword": "Indicator construction, Big data, Leadership improvement, Identify poor student",
+                "number-of-pages": "5",
+                "page": "461–465",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Accurately Identify Poor Students under Big Data",
+                "URL": "https://doi.org/10.1145/3524383.3533249"
+            }
+        },
+        {
+            "10.1145/3538950.3538951": {
+                "id": "10.1145/3538950.3538951",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Zhang",
+                        "given": "Lin"
+                    },
+                    {
+                        "family": "Jiang",
+                        "given": "Rong"
+                    },
+                    {
+                        "family": "Wang",
+                        "given": "Meng"
+                    },
+                    {
+                        "family": "Yang",
+                        "given": "Yue"
+                    },
+                    {
+                        "family": "Wang",
+                        "given": "Chenguang"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2022,
+                            5,
+                            26
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2022,
+                            5,
+                            26
+                        ]
+                    ]
+                },
+                "abstract": "In order to solve the storage and management problems of heterogeneous drug data, this paper uses big data technology to complete the cleaning and distributed storage of drug data, and improve the function of data sharing and traceability. At the same time, in order to improve the drug traceability function, ensure the reliable storage of traceability information, and make the traceability process more reliable. This paper will put forward a drug traceability system model based on big data on the basis of existing research. Secondly, an evidence chain framework is proposed to verify evidence files. At last, the simulation experiment is carried out to test and illustrate the credibility of the traceability verification model.",
+                "call-number": "10.1145/3538950.3538951",
+                "collection-title": "BDE '22",
+                "container-title": "Proceedings of the 4th International Conference on Big Data Engineering",
+                "DOI": "10.1145/3538950.3538951",
+                "event-place": "Beijing, China",
+                "ISBN": "9781450395632",
+                "keyword": "Big Data, Drug Traceability, Traceability Verification",
+                "number-of-pages": "7",
+                "page": "1–7",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "A Drug Safety Traceability Model Based on Big Data",
+                "URL": "https://doi.org/10.1145/3538950.3538951"
+            }
+        },
+        {
+            "10.1145/2609876.2609890": {
+                "id": "10.1145/2609876.2609890",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Endert",
+                        "given": "Alex"
+                    },
+                    {
+                        "family": "Szymczak",
+                        "given": "Samantha"
+                    },
+                    {
+                        "family": "Gunning",
+                        "given": "Dave"
+                    },
+                    {
+                        "family": "Gersh",
+                        "given": "John"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2014,
+                            4,
+                            1
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2014,
+                            4,
+                            1
+                        ]
+                    ]
+                },
+                "abstract": "Human-Centered Big Data Research (HCBDR) is an area of work that focuses on the methodologies and research areas focused on understanding how humans interact with \"big data\". In the context of this paper, we refer to \"big data\" in a holistic sense, including most (if not all) the dimensions defining the term, such as complexity, variety, velocity, veracity, etc. Simply put, big data requires us as researchers of to question and reconsider existing approaches, with the opportunity to illuminate new kinds of insights that were traditionally out of reach to humans.",
+                "call-number": "10.1145/2609876.2609890",
+                "collection-title": "HCBDR '14",
+                "container-title": "Proceedings of the 2014 Workshop on Human Centered Big Data Research",
+                "DOI": "10.1145/2609876.2609890",
+                "event-place": "Raleigh, NC, USA",
+                "ISBN": "9781450329385",
+                "number-of-pages": "3",
+                "page": "56–58",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Modeling in Big Data Environments",
+                "URL": "https://doi.org/10.1145/2609876.2609890"
+            }
+        },
+        {
+            "10.1145/2609876.2609889": {
+                "id": "10.1145/2609876.2609889",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Argenta",
+                        "given": "Chris"
+                    },
+                    {
+                        "family": "Benson",
+                        "given": "Jordan"
+                    },
+                    {
+                        "family": "Bos",
+                        "given": "Nathan"
+                    },
+                    {
+                        "family": "Paletz",
+                        "given": "Susannah B. F."
+                    },
+                    {
+                        "family": "Pike",
+                        "given": "William"
+                    },
+                    {
+                        "family": "Wilson",
+                        "given": "Aaron"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2014,
+                            4,
+                            1
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2014,
+                            4,
+                            1
+                        ]
+                    ]
+                },
+                "abstract": "We report on the sensemaking breakout group at the Human Centered Big Data Research (HCBDR-2014) workshop. The authors are a multi-disciplinary team of invited researchers and stakeholders who participated in this breakout session. This report includes an overview of our discussions on the many research challenges associated with sensemaking within a big data environment. Specifically, we focused on key topics that fit squarely in the intersection of the sensemaking and big data research, as other communities already exist for decision making and big data technologies independently. As part of this effort, our group developed and proposed a framework around which this community can target and structure future research. This framework is intended to allow the community to systematically identify areas where innovative research might make large contributions to sensemaking in a big data environment.",
+                "call-number": "10.1145/2609876.2609889",
+                "collection-title": "HCBDR '14",
+                "container-title": "Proceedings of the 2014 Workshop on Human Centered Big Data Research",
+                "DOI": "10.1145/2609876.2609889",
+                "event-place": "Raleigh, NC, USA",
+                "ISBN": "9781450329385",
+                "number-of-pages": "3",
+                "page": "53–55",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Sensemaking in Big Data Environments",
+                "URL": "https://doi.org/10.1145/2609876.2609889"
+            }
+        },
+        {
+            "10.1145/3206157.3206166": {
+                "id": "10.1145/3206157.3206166",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Khan",
+                        "given": "Nawsher"
+                    },
+                    {
+                        "family": "Alsaqer",
+                        "given": "Mohammed"
+                    },
+                    {
+                        "family": "Shah",
+                        "given": "Habib"
+                    },
+                    {
+                        "family": "Badsha",
+                        "given": "Gran"
+                    },
+                    {
+                        "family": "Abbasi",
+                        "given": "Aftab Ahmad"
+                    },
+                    {
+                        "family": "Salehian",
+                        "given": "Soulmaz"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2018,
+                            3,
+                            9
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2018,
+                            3,
+                            9
+                        ]
+                    ]
+                },
+                "abstract": "In this emerging computing and digital globe, information and Knowledge are created and then collected with a rapid approach by wide range of applications through scientific computing and commercial workloads. Over 3.8 billion people out of 7.6 billion population of the world are connected to the internet. Out of 13.4 billion devices, 8.06 billion devices have a mobile connection. In 2020, 38.5 billion devices will be connected and globally internet traffic will be 92 times greater than it was in 2005. The use of such devices and internet not only increase the data volume but the velocity of market brings in fast-track and accelerates as information is transferred and shared with light speed on optic fiber and wireless networks. This fast generation of huge data creates numerous challenges. The existing approaches addressing issues such as, Volume, Variety, Velocity and Value in big data research perspective. The objectives of the paper are to investigate and analyze the current status of Big Data and furthermore a comprehensive overview of various aspects has discussed, and additionally has been described all 10 Vs' (Issues) of Big Data.",
+                "call-number": "10.1145/3206157.3206166",
+                "collection-title": "ICBDE '18",
+                "container-title": "Proceedings of the 2018 International Conference on Big Data and Education",
+                "DOI": "10.1145/3206157.3206166",
+                "event-place": "Honolulu, HI, USA",
+                "ISBN": "9781450363587",
+                "keyword": "Big Data, Data Management",
+                "number-of-pages": "5",
+                "page": "52–56",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "The 10 Vs, Issues and Challenges of Big Data",
+                "URL": "https://doi.org/10.1145/3206157.3206166"
+            }
+        },
+        {
+            "10.1145/2640087.2644168": {
+                "id": "10.1145/2640087.2644168",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Cho",
+                        "given": "Wonhee"
+                    },
+                    {
+                        "family": "Lim",
+                        "given": "Yoojin"
+                    },
+                    {
+                        "family": "Lee",
+                        "given": "Hwangro"
+                    },
+                    {
+                        "family": "Varma",
+                        "given": "Mohan Krishna"
+                    },
+                    {
+                        "family": "Lee",
+                        "given": "Moonsoo"
+                    },
+                    {
+                        "family": "Choi",
+                        "given": "Eunmi"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2014,
+                            8,
+                            4
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2014,
+                            8,
+                            4
+                        ]
+                    ]
+                },
+                "abstract": "Compared to the traditional data storing, processing, analyzing and visualization which have been performed, Big data requires evolutionary technologies of massive data processing on distributed and parallel systems, such as Hadoop system. Big data analytic systems, thus, have been popular to derive important decision making in various areas. However, visualization on analytic system faces various limitation due to the huge amount of data. This brings the necessity of interactive visualization techniques beyond the traditional static visualization. R has been used and improved for a big data analysis and mining tool. Also, R is supported with various and abundant packages for different targets with visualization. However interactive visualization packages are not easily found in the market. This paper compares and analyzes interactive web packages with visualization packages for R. This paper also proposes interactive web visualized analysis environment for big data with a combination of interactive web packages and visualization packages. In particular, Big data analysis techniques with sensed data are presented as the result by reflecting the decision view on sensing field.",
+                "call-number": "10.1145/2640087.2644168",
+                "collection-number": "18",
+                "collection-title": "BigDataScience '14",
+                "container-title": "Proceedings of the 2014 International Conference on Big Data Science and Computing",
+                "DOI": "10.1145/2640087.2644168",
+                "event-place": "Beijing, China",
+                "ISBN": "9781450328913",
+                "keyword": "Big data, Mining, Visualization, Hadoop, R",
+                "number": "Article 18",
+                "number-of-pages": "6",
+                "page": "1–6",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Big Data Analysis with Interactive Visualization using R packages",
+                "URL": "https://doi.org/10.1145/2640087.2644168"
+            }
+        },
+        {
+            "10.1145/3335484.3335534": {
+                "id": "10.1145/3335484.3335534",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Ye",
+                        "given": "Zilong"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2019,
+                            5,
+                            10
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2019,
+                            5,
+                            10
+                        ]
+                    ]
+                },
+                "abstract": "Recent advances in computing and sensing techniques lead to the generation of tons of data that needs to be processed in distributed computing infrastructures (e.g., datacenters). In this paper, we focus on applying optical networking techniques for supporting the big data transfer between datacenters. In particular, we propose a green optical networking scheme, namely predictive and incremental grooming (PI-grooming), which makes the traffic grooming decision based on the existing flow assignment, the current traffic demands, and the expected future traffic demands to achieve energy-efficient communication. We conduct large-scale simulations to evaluate the performance of the proposed PI-grooming scheme. The results show that PI-grooming can save energy by up to 25% compared to existing baseline solutions.",
+                "call-number": "10.1145/3335484.3335534",
+                "collection-title": "ICBDC '19",
+                "container-title": "Proceedings of the 4th International Conference on Big Data and Computing",
+                "DOI": "10.1145/3335484.3335534",
+                "event-place": "Guangzhou, China",
+                "ISBN": "9781450362788",
+                "keyword": "Big data transfer, optical networking, predictive, traffic grooming",
+                "number-of-pages": "4",
+                "page": "64–67",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Green Optical Networking for Big Data Transfer",
+                "URL": "https://doi.org/10.1145/3335484.3335534"
+            }
+        },
+        {
+            "10.1145/3372938.3372939": {
+                "id": "10.1145/3372938.3372939",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Jernejcic",
+                        "given": "Thomas"
+                    },
+                    {
+                        "family": "Kettani",
+                        "given": "Houssain"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2019,
+                            10,
+                            23
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2019,
+                            10,
+                            23
+                        ]
+                    ]
+                },
+                "abstract": "A struggle has emerged in relation to the sacredness of one's private information and the importance of moving forward in a digital world of social media, smart devices, and Big Data -- an era known as the Age of Context. The purpose of this paper is to make a clear case for concern regarding the seriousness of keeping data private while facilitating efforts to encourage and support emerging technologies. This investigative process included the pursuit of relevant articles and published works that provided a clear and relevant picture of the current state of affairs concerning Big Data and privacy. After a review of the literature, an analysis of data collection methods, a discovery of Big Data processes and purposes, and the identification of risks pertaining to the individual, the military, and the country, it was determined that significant concerns do exist pertaining to data collection, Big Data, and privacy. These concerns not only pertain to the individual, but with military effectiveness and national security.",
+                "call-number": "10.1145/3372938.3372939",
+                "collection-number": "1",
+                "collection-title": "BDIoT'19",
+                "container-title": "Proceedings of the 4th International Conference on Big Data and Internet of Things",
+                "DOI": "10.1145/3372938.3372939",
+                "event-place": "Rabat, Morocco",
+                "ISBN": "9781450372404",
+                "keyword": "Data Privacy, Cyber Security, Big Data",
+                "number": "Article 1",
+                "number-of-pages": "4",
+                "page": "1–4",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "On the Intersection of Big Data and Privacy",
+                "URL": "https://doi.org/10.1145/3372938.3372939"
+            }
+        },
+        {
+            "10.1145/2378356.2378369": {
+                "id": "10.1145/2378356.2378369",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Brunozzi",
+                        "given": "Simone"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2012,
+                            9,
+                            21
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2012,
+                            9,
+                            21
+                        ]
+                    ]
+                },
+                "abstract": "This technical talk will briefly introduce the NoSQL approach, describe why it's important for Big Data tasks, and then switch to DynamoDB, a NoSQL managed database that runs on the Amazon Web Services cloud. The talk will then cover DynamoDB's data model, compare it with other NoSQL solutions, and provide some examples and a demo of the service.",
+                "call-number": "10.1145/2378356.2378369",
+                "collection-title": "MBDS '12",
+                "container-title": "Proceedings of the 2012 workshop on Management of big data systems",
+                "DOI": "10.1145/2378356.2378369",
+                "event-place": "San Jose, California, USA",
+                "ISBN": "9781450317528",
+                "keyword": "nosql, big data, dynamodb",
+                "number-of-pages": "2",
+                "page": "41–42",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Big Data and NoSQL with Amazon DynamoDB",
+                "URL": "https://doi.org/10.1145/2378356.2378369"
+            }
+        },
+        {
+            "10.1145/2837060.2837116": {
+                "id": "10.1145/2837060.2837116",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Mohania",
+                        "given": "Mukesh"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2015,
+                            10,
+                            20
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2015,
+                            10,
+                            20
+                        ]
+                    ]
+                },
+                "call-number": "10.1145/2837060.2837116",
+                "collection-title": "BigDAS '15",
+                "container-title": "Proceedings of the 2015 International Conference on Big Data Applications and Services",
+                "DOI": "10.1145/2837060.2837116",
+                "event-place": "Jeju Island, Republic of Korea",
+                "ISBN": "9781450338462",
+                "number-of-pages": "1",
+                "page": "9",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Big Data Processing Flow",
+                "URL": "https://doi.org/10.1145/2837060.2837116"
+            }
+        },
+        {
+            "10.1145/3375555.3383121": {
+                "id": "10.1145/3375555.3383121",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Ivanov",
+                        "given": "Todor"
+                    },
+                    {
+                        "family": "Singhal",
+                        "given": "Rekha"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2020,
+                            4,
+                            20
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2020,
+                            4,
+                            20
+                        ]
+                    ]
+                },
+                "abstract": "The proliferation of big data technology and faster computing systems led to pervasions of AI based solutions in our life. There is need to understand how to benchmark systems used to build AI based solutions that have a complex pipeline of pre-processing, statistical analysis, machine learning and deep learning on data to build prediction models. Solution architects, engineers and researchers may use open-source technology or proprietary systems based on desired performance requirements. The performance metrics may be data pre-processing time, model training time and model inference time. We do not see a single benchmark answering all questions of solution architects and researchers. This tutorial covers both practical and research questions on relevant Big Data and Analytics benchmarks.",
+                "call-number": "10.1145/3375555.3383121",
+                "collection-title": "ICPE '20",
+                "container-title": "Companion of the ACM/SPEC International Conference on Performance Engineering",
+                "DOI": "10.1145/3375555.3383121",
+                "event-place": "Edmonton AB, Canada",
+                "ISBN": "9781450371094",
+                "keyword": "big data, ML, benchmarking, AI, analytics",
+                "number-of-pages": "4",
+                "page": "50–53",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Tutorial on Benchmarking Big Data Analytics Systems",
+                "URL": "https://doi.org/10.1145/3375555.3383121"
+            }
+        },
+        {
+            "10.1145/2837060.2837089": {
+                "id": "10.1145/2837060.2837089",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Kim",
+                        "given": "Seokyeon"
+                    },
+                    {
+                        "family": "Jeong",
+                        "given": "Seongmin"
+                    },
+                    {
+                        "family": "An",
+                        "given": "Sung Uk"
+                    },
+                    {
+                        "family": "Yoo",
+                        "given": "Jae Seok"
+                    },
+                    {
+                        "family": "Han",
+                        "given": "Sang Min"
+                    },
+                    {
+                        "family": "Yeon",
+                        "given": "Hanbyul"
+                    },
+                    {
+                        "family": "Yoo",
+                        "given": "Sangbong"
+                    },
+                    {
+                        "family": "Jang",
+                        "given": "Yun"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2015,
+                            10,
+                            20
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2015,
+                            10,
+                            20
+                        ]
+                    ]
+                },
+                "abstract": "As the world trend is elapsing toward the big data world, researchers have gradually become interested in data analysis and data visualization. We propose a visual analytics system for analyzing the big data for disease pattern analysis. The system is designed for not only experts but also novice users. We have focused on designing the system to support a short learning curve and scalability. The system is implemented on the web and we utilize Spring Framework for distributed processing with consideration to scalability. Furthermore, we have collected epidemic disease data from a public data repository that the government opens to the public and we analyze the data to reveal the causality of disease outbreak through our system.",
+                "call-number": "10.1145/2837060.2837089",
+                "collection-title": "BigDAS '15",
+                "container-title": "Proceedings of the 2015 International Conference on Big Data Applications and Services",
+                "DOI": "10.1145/2837060.2837089",
+                "event-place": "Jeju Island, Republic of Korea",
+                "ISBN": "9781450338462",
+                "keyword": "Data Visualization, Big Data, Visual Analytics System",
+                "number-of-pages": "5",
+                "page": "175–179",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Big Data Visual Analytics System for Disease Pattern Analysis",
+                "URL": "https://doi.org/10.1145/2837060.2837089"
+            }
+        },
+        {
+            "10.1145/3456389.3456390": {
+                "id": "10.1145/3456389.3456390",
+                "type": "PAPER_CONFERENCE",
+                "author": [
+                    {
+                        "family": "Cao",
+                        "given": "Shuangshuang"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            2022,
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            2021,
+                            3,
+                            12
+                        ]
+                    ]
+                },
+                "original-date": {
+                    "date-parts": [
+                        [
+                            2021,
+                            3,
+                            12
+                        ]
+                    ]
+                },
+                "abstract": "In the era of big data, under the conditions of rapid economic development in our country, various enterprises have also vigorously carried out marketing. In the context of big data, marketing research should be strengthened to effectively improve market. Market issues ensure that marketing has improved its status in the era of big data. This article has conducted a research and analysis on marketing in the context of big data. And then the opportunities and challenges of marketing in the context of big data has been explained, which gradually optimize the marketing implementation effect. The challenges faced by marketing has been understood which ensures that the big data model plays its best role in it.",
+                "call-number": "10.1145/3456389.3456390",
+                "collection-title": "WABD 2021",
+                "container-title": "2021 Workshop on Algorithm and Big Data",
+                "DOI": "10.1145/3456389.3456390",
+                "event-place": "Fuzhou, China",
+                "ISBN": "9781450389945",
+                "keyword": "Big data, Personalized service, Marketing",
+                "number-of-pages": "4",
+                "page": "79–82",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "title": "Opportunities and Challenges of Marketing in the Context of Big Data",
+                "URL": "https://doi.org/10.1145/3456389.3456390"
+            }
+        },
+        {
+            "10.1145/2331042.2331045": {
+                "id": "10.1145/2331042.2331045",
+                "type": "ARTICLE",
+                "author": [
+                    {
+                        "family": "Cron",
+                        "given": "Andrew"
+                    },
+                    {
+                        "family": "Nguyen",
+                        "given": "Huy L."
+                    },
+                    {
+                        "family": "Parameswaran",
+                        "given": "Aditya"
+                    }
+                ],
+                "issued": {
+                    "date-parts": [
+                        [
+                            2012,
+                            9,
+                            1
+                        ]
+                    ]
+                },
+                "call-number": "10.1145/2331042.2331045",
+                "container-title": "XRDS",
+                "DOI": "10.1145/2331042.2331045",
+                "ISSN": "1528-4972",
+                "issue": "1",
+                "number-of-pages": "2",
+                "page": "7–8",
+                "publisher": "Association for Computing Machinery",
+                "publisher-place": "New York, NY, USA",
+                "source": "Fall 2012",
+                "title": "Big data",
+                "URL": "https://doi.org/10.1145/2331042.2331045",
+                "volume": "19"
+            }
+        }
+    ]
+}

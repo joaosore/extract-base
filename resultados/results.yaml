@@ -1,0 +1,1820 @@
+- {index: 0, abstract: 'In a world increasingly connected, and in which information
+        flows quickly and affects a very large number of people, sentiment
+        analysis has seen a spectacular development over the past ten years.
+        This is due to the fact that the explosion of social networks has
+        allowed anyone with internet access to publicly express his opinion.
+        Moreover, the emergence of big data has brought enormous opportunities
+        and powerful storage and analytics tools to the field of sentiment
+        analysis. However, big data introduces new variables and constraints
+        that could radically affect the traditional models of sentiment analysis.
+        Therefore, new concerns, such as big data quality, have to be addressed
+        to get the most out of big data. To the best of our knowledge, no
+        contributions have been published so far which address big data quality
+        in SA throughout its different processes. In this paper, we first
+        highlight the most important big data quality metrics to consider
+        in any big data project. Then, we show how these metrics could be
+        specifically considered in SA approaches and this for each phase in
+        the big data value chain.', doi: 10.1145/3341620.3341629, year: '2019',
+    title: Big Data Quality Metrics for Sentiment Analysis Approaches, author: 'El
+        Alaoui, Imane and Gahi, Youssef and Messoussi, Rochdi'}
+- {index: 1, abstract: 'In recent years, as more and more data sources have
+        become available and the volumes of data potentially accessible have
+        increased, the assessment of data quality has taken a central role
+        whether at the academic, professional or any other sector. Given that
+        users are often concerned with the need to filter a large amount of
+        data to better satisfy their requirements and needs, and that data
+        analysis can be based on inaccurate, incomplete, ambiguous, duplicated
+        and of poor quality, it makes everyone wonder what the results of
+        these analyses will really be like. However, there is a very complex
+        process involved in the identification of new, valid, potentially
+        useful and meaningful data from a large data collection and various
+        information systems, and is critically dependent on a number of measures
+        to be developed to ensure data quality. To this end, the main objective
+        of this paper is to introduce a general study on data quality related
+        with big data, by providing what other researchers came up with on
+        that subject. The paper will be finalized by a comparative study between
+        the different existing data quality models.', doi: 10.1145/3419604.3419803,
+    year: '2020', title: Towards a Data Quality Assessment in Big Data, author: 'Reda,
+        Oumaima and Sassi, Imad and Zellou, Ahmed and Anter, Samir'}
+- {index: 2, abstract: 'As Big Data becomes better understood, there is a
+        need for a comprehensive definition of Big Data to support work in
+        fields such as data quality for Big Data. Existing definitions of
+        Big Data define Big Data by comparison with existing, usually relational,
+        definitions, or define Big Data in terms of data characteristics or
+        use an approach which combines data characteristics with the Big Data
+        environment. In this paper we examine existing definitions of Big
+        Data and discuss the strengths and limitations of the different approaches,
+        with particular reference to issues related to data quality in Big
+        Data. We identify the issues presented by incomplete or inconsistent
+        definitions. We propose an alternative definition and relate this
+        definition to our work on quality in Big Data.', doi: 10.1145/3010089.3010090,
+    year: '2016', title: Defining Big Data, author: 'Emmanuel, Isitor and
+        Stanier, Clare'}
+- {index: 3, abstract: "Big Data (BD) solutions are designed to better support\
+        \ decision-making processes in order to optimize organizational performance.\
+        \ These BD solutions use company\u2019s core business data, using\
+        \ typically large datasets. However, data that doesn\u2019t meet adequate\
+        \ quality levels will lead to BD solutions that will not produce useful\
+        \ results, and consequently may not be used to make adequate business\
+        \ decisions. For a long time, companies have collected and stored\
+        \ large amounts of data without being able to exploit the advantage\
+        \ of exploring it. Nowadays, and thanks to the Big Data explosion,\
+        \ organizations have begun to recognize the need for estimating the\
+        \ value of their data and, vice-versa, managing data accordingly to\
+        \ their value. This need of managing the Value of data has led to\
+        \ the concept of Smart Data. It not only involves the datasets, but\
+        \ also the set of technologies, tools, processes and methodologies\
+        \ that enable all the Values from the data to the End-users (Business,\
+        \ data scientist, BI\u2026). Consequently, Smart data is data actionable.\
+        \ We discovered that data quality is one of the most important issues\
+        \ when it comes to \u201Csmartizing\u201D data. In this paper, we\
+        \ introduce a methodology to make data smarter, taking as a reference\
+        \ point, the quality level of the data itself.", doi: 10.1145/3281022.3281026,
+    year: '2018', title: 'From Big Data to Smart Data: A Data Quality Perspective',
+    author: 'Baldassarre, Maria Teresa and Caballero, Ismael and Caivano,
+        Danilo and Rivas Garcia, Bibiano and Piattini, Mario'}
+- {index: 4, abstract: 'Recently, a great deal of interest for Big Data has
+        risen, mainly driven from a widespread number of research problems
+        strongly related to real-life applications and systems, such as representing,
+        modeling, processing, querying and mining massive, distributed, large-scale
+        repositories (mostly being of unstructured nature). Inspired by this
+        main trend, in this paper we discuss three important aspects of Big
+        Data research, namely OLAP over Big Data, Big Data Posting, and Privacy
+        of Big Data. We also depict future research directions, hence implicitly
+        defining a research agenda aiming at leading future challenges in
+        this research field.', doi: 10.1145/2513591.2527071, year: '2013',
+    title: 'Big Data: A Research Agenda', author: 'Cuzzocrea, Alfredo and
+        Sacc\`{a}, Domenico and Ullman, Jeffrey D.'}
+- {index: 5, abstract: 'Big data are a data trend present around us mainly
+        through Internet -- social networks and smart devices and meters --
+        mostly without us being aware of them. Also they are a fact that both
+        industry and scientific research needs to deal with. They are interesting
+        from analytical point of view, for they contain knowledge that cannot
+        be ignored and left unused. Traditional system that supports the advanced
+        analytics and knowledge extraction -- data warehouse -- is not able
+        to cope with large amounts of fast incoming various and unstructured
+        data, and may be facing a paradigm shift in terms of utilized concepts,
+        technologies and methodologies, which have become a very active research
+        area in the last few years. This paper provides an overview of research
+        trends important for the big data warehousing, concepts and technologies
+        used for data storage and (ETL) processing, and research approaches
+        done in attempts to empower traditional data warehouses for handling
+        big data.', doi: 10.1145/3141128.3141139, year: '2017', title: Big
+        Data and New Data Warehousing Approaches, author: 'Pti\v{c}ek, Marina
+        and Vrdoljak, Boris'}
+- {index: 6, abstract: 'In an era where Big Data can greatly impact a broad
+        population, many novel opportunities arise, chief among them the ability
+        to integrate data from diverse sources and "wrangle" it to extract
+        novel insights. Conceived as a tool that can help both expert and
+        non-expert users better understand public data, MATTERS was collaboratively
+        developed by the Massachusetts High Tech Council, WPI and other institutions
+        as an analytic platform offering dynamic modeling capabilities. MATTERS
+        is an integrative data source on high fidelity cost and talent competitiveness
+        metrics. Its goal is to extract, integrate and model rich economic,
+        financial, educational and technological information from renowned
+        heterogeneous web data sources ranging from The US Census Bureau,
+        The Bureau of Labor Statistics to the Institute of Education Sciences,
+        all known to be critical factors influencing economic competitiveness
+        of states. This demonstration of MATTERS illustrates how we tackle
+        challenges of data acquisition, cleaning, integration and wrangling
+        into appropriate representations, visualization and story-telling
+        with data in the context of state competitiveness in the high-tech
+        sector.', doi: 10.1145/2658840.2658845, year: '2014', title: 'Taming
+        Big Data: Integrating Diverse Public Data Sources for Economic Competitiveness
+        Analytics', author: 'Neamtu, Rodica and Ahsan, Ramoza and Stokes,
+        Jeff and Hoxha, Armend and Bao, Jialiang and Gvozdenovic, Stefan and
+        Meyer, Ted and Patel, Nilesh and Rangan, Raghu and Wang, Yumou and
+        Zhang, Dongyun and Rundensteiner, Elke A.'}
+- {index: 7, abstract: 'In order to solve the storage and management problems
+        of heterogeneous drug data, this paper uses big data technology to
+        complete the cleaning and distributed storage of drug data, and improve
+        the function of data sharing and traceability. At the same time, in
+        order to improve the drug traceability function, ensure the reliable
+        storage of traceability information, and make the traceability process
+        more reliable. This paper will put forward a drug traceability system
+        model based on big data on the basis of existing research. Secondly,
+        an evidence chain framework is proposed to verify evidence files.
+        At last, the simulation experiment is carried out to test and illustrate
+        the credibility of the traceability verification model.', doi: 10.1145/3538950.3538951,
+    year: '2022', title: A Drug Safety Traceability Model Based on Big Data,
+    author: 'Zhang, Lin and Jiang, Rong and Wang, Meng and Yang, Yue and Wang,
+        Chenguang'}
+- {index: 8, abstract: 'In this emerging computing and digital globe, information
+        and Knowledge are created and then collected with a rapid approach
+        by wide range of applications through scientific computing and commercial
+        workloads. Over 3.8 billion people out of 7.6 billion population of
+        the world are connected to the internet. Out of 13.4 billion devices,
+        8.06 billion devices have a mobile connection. In 2020, 38.5 billion
+        devices will be connected and globally internet traffic will be 92
+        times greater than it was in 2005. The use of such devices and internet
+        not only increase the data volume but the velocity of market brings
+        in fast-track and accelerates as information is transferred and shared
+        with light speed on optic fiber and wireless networks. This fast generation
+        of huge data creates numerous challenges. The existing approaches
+        addressing issues such as, Volume, Variety, Velocity and Value in
+        big data research perspective. The objectives of the paper are to
+        investigate and analyze the current status of Big Data and furthermore
+        a comprehensive overview of various aspects has discussed, and additionally
+        has been described all 10 Vs'' (Issues) of Big Data.', doi: 10.1145/3206157.3206166,
+    year: '2018', title: 'The 10 Vs, Issues and Challenges of Big Data', author: 'Khan,
+        Nawsher and Alsaqer, Mohammed and Shah, Habib and Badsha, Gran and
+        Abbasi, Aftab Ahmad and Salehian, Soulmaz'}
+- {index: 9, abstract: 'Compared to the traditional data storing, processing,
+        analyzing and visualization which have been performed, Big data requires
+        evolutionary technologies of massive data processing on distributed
+        and parallel systems, such as Hadoop system. Big data analytic systems,
+        thus, have been popular to derive important decision making in various
+        areas. However, visualization on analytic system faces various limitation
+        due to the huge amount of data. This brings the necessity of interactive
+        visualization techniques beyond the traditional static visualization.
+        R has been used and improved for a big data analysis and mining tool.
+        Also, R is supported with various and abundant packages for different
+        targets with visualization. However interactive visualization packages
+        are not easily found in the market. This paper compares and analyzes
+        interactive web packages with visualization packages for R. This paper
+        also proposes interactive web visualized analysis environment for
+        big data with a combination of interactive web packages and visualization
+        packages. In particular, Big data analysis techniques with sensed
+        data are presented as the result by reflecting the decision view on
+        sensing field.', doi: 10.1145/2640087.2644168, year: '2014', title: Big
+        Data Analysis with Interactive Visualization Using R Packages, author: 'Cho,
+        Wonhee and Lim, Yoojin and Lee, Hwangro and Varma, Mohan Krishna and
+        Lee, Moonsoo and Choi, Eunmi'}
+- {index: 10, abstract: 'In as much as the approaches of the new revolution,
+        machines including transmission media like social media sites, nowadays
+        quantity of data swell hastily. So, size is the core and only facet
+        that leaps the mention of BIG DATA. In this article, an effort to
+        touch a comprehensive view of big data technologies, because of the
+        swift evolution of data by an industry trying the academic press to
+        catch up. This paper also offers a unified explanation of big data
+        as well as the analytics methods. A practical discriminate characteristic
+        of this paper is core analytics associated with unstructured data
+        which is more than 90% of big data. To deal with complicated Big Data
+        problems, great work has been done. This paper analyzes contemporary
+        Big Data technologies. Therein article further strengthens the necessity
+        to formulate new tools for analytics. It bestows not sole an intercontinental
+        overview of big data techniques even though the valuation according
+        to big data Hadoop Ecosystem. It classifies and debates the main technologies
+        feature, challenges, and usage as well.', doi: 10.1145/3404687.3404694,
+    year: '2020', title: 'A Comprehensive Overview of BIG DATA Technologies:
+        A Survey', author: 'Raza, Muhammad Umair and XuJian, Zhao'}
+- {index: 11, abstract: 'In the era of big data, under the conditions of rapid
+        economic development in our country, various enterprises have also
+        vigorously carried out marketing. In the context of big data, marketing
+        research should be strengthened to effectively improve market. Market
+        issues ensure that marketing has improved its status in the era of
+        big data. This article has conducted a research and analysis on marketing
+        in the context of big data. And then the opportunities and challenges
+        of marketing in the context of big data has been explained, which
+        gradually optimize the marketing implementation effect. The challenges
+        faced by marketing has been understood which ensures that the big
+        data model plays its best role in it.', doi: 10.1145/3456389.3456390,
+    year: '2021', title: Opportunities and Challenges of Marketing in the
+        Context of Big Data, author: 'Cao, Shuangshuang'}
+- {index: 12, abstract: 'This article articulates the requirements for an
+        effective big data value engineering method. It then presents a value
+        discovery method, called Eco-ARCH (Eco-ARCHitecture), tightly integrated
+        with the BDD (Big Data Design) method for addressing these requirements,
+        filling a methodological void. Eco-ARCH promotes a fundamental shift
+        in design thinking for big data system design -- from "bounded rationality"
+        for problem solving to "expandable rationality" for design for innovation.
+        The Eco-ARCH approach is most suitable for big data value engineering
+        when system boundaries are fluid, requirements are ill-defined, many
+        stakeholders are unknown and design goals are not provided, where
+        no architecture pre-exists, where system behavior is non-deterministic
+        and continuously evolving, and where co-creation with consumers and
+        prosumers is essential to achieving innovation goals. The method was
+        augmented and empirically validated in collaboration with an IT service
+        company in the energy industry to generate a new business model that
+        we call "eBay in the Grid".', doi: 10.1145/2896825.2896837, year: '2016',
+    title: Toward Big Data Value Engineering for Innovation, author: 'Chen,
+        Hong-Mei and Kazman, Rick and Garbajosa, Juan and Gonzalez, Eloy'}
+- {index: 13, abstract: 'Big data system development is dramatically different
+        from small (traditional, structured) data system development. At the
+        end of 2014, big data deployment is still scarce and failures abound.
+        Outsourcing has become a main strategy for many enterprises. We therefore
+        selected an outsourcing company who has successfully deployed big
+        data projects for our study. Our research results from analyzing 10
+        outsourced big data projects provide a glimpse into early adopters
+        of big data, illuminates the challenges for system development that
+        stem from the 5Vs of big data and crystallizes the importance of architecture
+        design choices and technology selection. We followed a collaborative
+        practice research (CPR) method to develop and validate a new method,
+        called BDD. BDD is the first attempt to systematically combine architecture
+        design with data modeling approaches to address big data system development
+        challenges. The use of reference architectures and a technology catalog
+        are advancements to architecture design methods and are proving to
+        be well-suited for big data system architecture design and system
+        development.', doi: .nan, year: '2015', title: 'Big Data System Development:
+        An Embedded Case Study with a Global Outsourcing Firm', author: 'Chen,
+        Hong-Mei and Kazman, Rick and Haziyev, Serge and Hrytsay, Olha'}
+- {index: 14, abstract: 'With the advent of the information age, big data
+        technology came into being. The wide application of big data brings
+        new opportunities and challenges to the construction of national defense
+        and military information. Under the background of information-based
+        joint operations characterized by large complex systems, how to scientifically
+        and rationally plan the construction of large complex systems, and
+        maximize the effectiveness of the complex system has become a key
+        concern for system construction decision makers and researchers. This
+        paper combines the application of big data in the construction of
+        large complex systems, and focuses on the evaluation of the effectiveness
+        of large complex systems based on big data, which can be used for
+        reference by relevant researchers.', doi: 10.1145/3335484.3335545,
+    year: '2019', title: Evaluation of Large-Scale Complex Systems Effectiveness
+        Based on Big Data, author: 'Zhi-peng, Sun and Gui-ming, Chen and Hui,
+        Zhang'}
+- {index: 15, abstract: 'Big Data Systems (BDSs) are an emerging class of
+        scalable software technologies whereby massive amounts of heterogeneous
+        data are gathered from multiple sources, managed, analyzed (in batch,
+        stream or hybrid fashion), and served to end-users and external applications.
+        Such systems pose specific challenges in all phases of software development
+        lifecycle and might become very complex by evolving data, technologies,
+        and target value over time. Consequently, many organizations and enterprises
+        have found it difficult to adopt BDSs. In this article, we provide
+        insight into three major activities of software engineering in the
+        context of BDSs as well as the choices made to tackle them regarding
+        state-of-the-art research and industry efforts. These activities include
+        the engineering of requirements, designing and constructing software
+        to meet the specified requirements, and software/data quality assurance.
+        We also disclose some open challenges of developing effective BDSs,
+        which need attention from both researchers and practitioners.', doi: 10.1145/3408314,
+    year: '2020', title: 'Big Data Systems: A Software Engineering Perspective',
+    author: 'Davoudian, Ali and Liu, Mengchi'}
+- {index: 16, abstract: 'It is widely accepted today that Relational databases
+        are not appropriate in highly distributed shared-nothing architectures
+        of commodity hardware, that need to handle poorly structured heterogeneous
+        data. This has brought the blooming of NoSQL systems with the purpose
+        of mitigating such problem, specially in the presence of analytical
+        workloads. Thus, the change in the data model and the new analytical
+        needs beyond OLAP take us to rethink methods and models to design
+        and manage these newborn repositories. In this paper, we will analyze
+        state of the art and future research directions.', doi: 10.1145/2811222.2811235,
+    year: '2015', title: Big Data Design, author: 'Abell\''{o}, Alberto'}
+- {index: 17, abstract: 'Big Data presents promising technological and economical
+        opportunities. In fact, it has become the raw material of production
+        for many organizations. Data is available in large quantities, and
+        it continues generating abundantly. However, not all the data will
+        have valuable knowledge. Unreliable sources provide misleading and
+        biased information, and even reliable sources could suffer from low
+        data quality.In this paper, we propose a novel methodology for the
+        selectability of data sources, by both considering the presence and
+        the absence of users'' preferences. The proposed model integrates
+        multiple factors that affect the reliability of data sources, including
+        their quality, gain, cost and coverage. Experimental results on real
+        world data-sets, show its capability to find the subset of relevant
+        and reliable sources with the lowest cost.', doi: 10.1145/3366030.3366121,
+    year: '2019', title: Data Source Selection in Big Data Context, author: 'Safhi,
+        Hicham Moad and Frikh, Bouchra and Ouhbi, Brahim'}
+- {index: 18, abstract: 'This paper aims at developing the Big Data Architecture,
+        and its relation with Analytics, Cloud Services as well as Business
+        Intelligence. The chief aim from all mentioned is to enable the Enterprise
+        Architecture and the Vision of an Organizational target to utilize
+        all the data they are ingesting and regressing data for their short-term
+        or long-terms analytical needs, while making sure that they are addressing
+        during the design phase of such data architecture for both directly
+        and indirectly related stakeholder. Since all stakeholders have their
+        relative interests to utilize the transformed data-sets. This paper
+        also identifies most of the Big Data Architecture, threat analysis
+        within a Big Data System and Big Data Analytic Roadmaps, in terms
+        of smaller components by conducting a gap-analysis that has significant
+        importance as Baseline Big Data Architecture, targeting the end resultant
+        Architectures, once the distillation process of main Big Data Architecture
+        is completed by the Data Architects.', doi: 10.1145/2656346.2656358,
+    year: '2014', title: 'Big Data Architecture Evolution: 2014 and Beyond',
+    author: 'Mohammad, Atif and Mcheick, Hamid and Grant, Emanuel'}
+- {index: 19, abstract: 'New user interfaces can transform how we work with
+        big data, and raise exciting research problems that span human-computer
+        interaction, machine learning, and distributed systems.', doi: 10.1145/2331042.2331058,
+    year: '2012', title: Interactive Analysis of Big Data, author: 'Heer,
+        Jeffrey and Kandel, Sean'}
+- {index: 0, abstract: 'Since a low-quality data may influence the effectiveness
+        and reliability of applications, data quality is required to be guaranteed.
+        Data quality assessment is considered as the foundation of the promotion
+        of data quality, so it is essential to access the data quality before
+        any other data related activities. In the electric power industry,
+        more and more electric power data is continuously accumulated, and
+        many electric power applications have been developed based on these
+        data. In China, the power grid has many special characteristic, traditional
+        big data assessment frameworks cannot be directly applied. Therefore,
+        a big data framework for electric power data quality assessment is
+        proposed. Based on big data techniques, the framework can accumulate
+        both the real-time data and the history data, provide an integrated
+        computation environment for electric power big data assessment, and
+        support the storage of different types of data.', doi: 10.1109/WISA.2017.29,
+    year: '2017', title: A Big Data Framework for Electric Power Data Quality
+        Assessment, author: 'Liu, He and Huang, Fupeng and Li, Han and Liu,
+        Weiwei and Wang, Tongxun'}
+- {index: 1, abstract: 'In the Big Data Era, data is the core for any governmental,
+        institutional, and private organization. Efforts were geared towards
+        extracting highly valuable insights that cannot happen if data is
+        of poor quality. Therefore, data quality (DQ) is considered as a key
+        element in Big data processing phase. In this stage, low quality data
+        is not penetrated to the Big Data value chain. This paper, addresses
+        the data quality rules discovery (DQR) after the evaluation of quality
+        and prior to Big Data pre-processing. We propose a DQR discovery model
+        to enhance and accurately target the pre-processing activities based
+        on quality requirements. We defined, a set of pre-processing activities
+        associated with data quality dimensions (DQD''s) to automatize the
+        DQR generation process. Rules optimization are applied on validated
+        rules to avoid multi-passes pre-processing activities and eliminates
+        duplicate rules. Conducted experiments showed an increased quality
+        scores after applying the discovered and optimized DQR''s on data.',
+    doi: 10.1109/BigDataCongress.2017.73, year: '2017', title: 'Big Data Pre-Processing:
+        Closing the Data Quality Enforcement Loop', author: 'Taleb, Ikbal
+        and Serhani, Mohamed Adel'}
+- {index: 2, abstract: "Data Profiling and data quality management become\
+        \ a more significant part of data engineering, which an essential\
+        \ part of ensuring that the system delivers quality information to\
+        \ users. In the last decade, data quality was considered to need more\
+        \ managing. Especially in the big data era that the data comes from\
+        \ many sources, many data types, and an enormous amount. Thus it makes\
+        \ the managing of data quality is more difficult and complicated.\
+        \ The traditional system was unable to respond as needed. The data\
+        \ quality managing software for big data was developed but often found\
+        \ in a high-priced, difficult to customize as needed, and mostly provide\
+        \ as GUI, which is challenging to integrate with other systems. From\
+        \ this problem, we have developed an opensource package for data quality\
+        \ managing. By using Python programming language, Which is a programming\
+        \ language that is widely used in the scientific and engineering field\
+        \ today. Because it is a programming language that is easy to read\
+        \ syntax, small, and has many additional packages to integrate. The\
+        \ software developed here is called \u201CSakdas\u201D this package\
+        \ has been divided into three parts. The first part deals with data\
+        \ profiling provide a set of data analyses to generate a data profile,\
+        \ and this profile will help to define the data quality rules. The\
+        \ second part deals with data quality auditing that users can set\
+        \ their own data quality rules for data quality measurement. The final\
+        \ part deals with data visualizing that provides data profiling and\
+        \ data auditing report to improve the data quality. The results of\
+        \ the profiling and auditing services, the user can specify both the\
+        \ form of a report for self-review. Or in the form of JSON for use\
+        \ in post-process automation.", doi: 10.1109/IBDAP50342.2020.9245455,
+    year: '2020', title: 'Sakdas: A Python Package for Data Profiling and
+        Data Quality Auditing', author: 'Loetpipatwanich, Sakda and Vichitthamaros,
+        Preecha'}
+- {index: 3, abstract: 'Big Data has gained an enormous momentum the past
+        few years because of the tremendous volume of generated and processed
+        Data from diverse application domains. Nowadays, it is estimated that
+        80% of all the generated data is unstructured. Evaluating the quality
+        of Big data has been identified to be essential to guarantee data
+        quality dimensions including for example completeness, and accuracy.
+        Current initiatives for unstructured data quality evaluation are still
+        under investigations. In this paper, we propose a quality evaluation
+        model to handle quality of Unstructured Big Data (UBD). The later
+        captures and discover first key properties of unstructured big data
+        and its characteristics, provides some comprehensive mechanisms to
+        sample, profile the UBD dataset and extract features and characteristics
+        from heterogeneous data types in different formats. A Data Quality
+        repository manage relationships between Data quality dimensions, quality
+        Metrics, features extraction methods, mining methodologies, data types
+        and data domains. An analysis of the samples provides a data profile
+        of UBD. This profile is extended to a quality profile that contains
+        the quality mapping with selected features for quality assessment.
+        We developed an UBD quality assessment model that handles all the
+        processes from the UBD profiling exploration to the Quality report.
+        The model provides an initial blueprint for quality estimation of
+        unstructured Big data. It also, states a set of quality characteristics
+        and indicators that can be used to outline an initial data quality
+        schema of UBD.', doi: 10.1109/INNOVATIONS.2018.8605945, year: '2018',
+    title: Big Data Quality Assessment Model for Unstructured Data, author: 'Taleb,
+        Ikbal and Serhani, Mohamed Adel and Dssouli, Rachida'}
+- {index: 4, abstract: 'This paper analyzed the challenges of data management
+        in army data engineering, such as big data volume, data heterogeneous,
+        high rate of data generation and update, high time requirement of
+        data processing, and widely separated data sources. We discussed the
+        disadvantages of traditional data management technologies to deal
+        with these problems. We also highlighted the key problems of data
+        management in army data engineering including data integration, data
+        analysis, representation of data analysis results, and evaluation
+        of data quality.', doi: 10.1109/ICBDA.2017.8078796, year: '2017',
+    title: Some key problems of data management in army data engineering based
+        on big data, author: 'HongJu, Xiao and Fei, Wang and FenMei, Wang
+        and XiuZhen, Wang'}
+- {index: 5, abstract: 'A USAF sponsored MITRE research team undertook four
+        separate, domain-specific case studies about Big Data applications.
+        Those case studies were initial investigations into the question of
+        whether or not data quality issues encountered in Big Data collections
+        are substantially different in cause, manifestation, or detection
+        than those data quality issues encountered in more traditionally sized
+        data collections. The study addresses several factors affecting Big
+        Data Quality at multiple levels, including collection, processing,
+        and storage. Though not unexpected, the key findings of this study
+        reinforce that the primary factors affecting Big Data reside in the
+        limitations and complexities involved with handling Big Data while
+        maintaining its integrity. These concerns are of a higher magnitude
+        than the provenance of the data, the processing, and the tools used
+        to prepare, manipulate, and store the data. Data quality is extremely
+        important for all data analytics problems. From the study''s findings,
+        the "truth about Big Data" is there are no fundamentally new DQ issues
+        in Big Data analytics projects. Some DQ issues exhibit return-s-to-scale
+        effects, and become more or less pronounced in Big Data analytics,
+        though. Big Data Quality varies from one type of Big Data to another
+        and from one Big Data technology to another.', doi: 10.1109/BigData.2015.7364064,
+    year: '2015', title: 'Big data, big data quality problem', author: 'Becker,
+        David and King, Trish Dunn and McMullen, Bill'}
+- {index: 6, abstract: 'Big data has been transformed into knowledge by information
+        systems to add value in businesses. Enterprises relying on it benefit
+        from risk management to a certain extent. The value, however, depends
+        on the quality of data. The quality needs to be verified before any
+        use of the data. Specifically, measuring the quality by simulating
+        the real life situation and even forecast it accurately turns into
+        a hot topic. In recent years, there have been numerous researches
+        on the measurement and assessment of data quality. These are yet to
+        utilize a scientific computational method for the measurement and
+        prediction. Current methods either fail to make an accurate prediction
+        or do not consider the correlation and time sequence factors of the
+        data. To address this, we design a model to extend machine learning
+        technique to business applications predicting this. Firstly, we implement
+        the model to detect data noises from a risk dataset according to an
+        international data quality standard from banking industry and then
+        estimate their impacts with Gaussian and Bayesian methods. Secondly,
+        we direct sequential learning in multiple deep neural networks for
+        the prediction with an attention mechanism. The model is experimented
+        with various network methodologies to show the predictive power of
+        machine learning technique and is evaluated by validation data to
+        confirm the model effectiveness. The model is scalable to apply to
+        any industries utilizing big data other than the banking industry.',
+    doi: 10.1109/DSAA49011.2020.00119, year: '2020', title: 'Big Data Quality
+        Prediction on Banking Applications: Extended Abstract', author: 'Wong,
+        Ka Yee. and Wong, Raymond K.'}
+- {index: 7, abstract: 'Big Data, is a growing technique these days. There
+        are many uses of Big Data; Artificial Intelligence, Health Care, Business,
+        and many more. For that reason, it becomes necessary to deal with
+        this massive volume of data with caution and care in a term to make
+        sure that the data used and produced is in high quality. Therefore,
+        the Big Data quality is must, and its rules have to be satisfied.
+        In this paper, the main Big Data Quality Factors, which need to be
+        measured, is presented in the perspective of the data itself, the
+        data management, data processing, and data users. This research highlights
+        the quality factors that may be used later to create different Big
+        Data quality models.', doi: 10.1109/ICBDCI.2019.8686099, year: '2019',
+    title: Big Data Quality Challenges, author: 'Abdallah, Mohammad'}
+- {index: 8, abstract: 'Data is the most valuable asset companies are proud
+        of. When its quality degrades, the consequences are unpredictable,
+        can lead to complete wrong insights. In Big Data context, evaluating
+        the data quality is challenging, must be done prior to any Big data
+        analytics by providing some data quality confidence. Given the huge
+        data size, its fast generation, it requires mechanisms, strategies
+        to evaluate, assess data quality in a fast, efficient way. However,
+        checking the Quality of Big Data is a very costly process if it is
+        applied on the entire data. In this paper, we propose an efficient
+        data quality evaluation scheme by applying sampling strategies on
+        Big data sets. The Sampling will reduce the data size to a representative
+        population samples for fast quality evaluation. The evaluation targeted
+        some data quality dimensions like completeness, consistency. The experimentations
+        have been conducted on Sleep disorder''s data set by applying Big
+        data bootstrap sampling techniques. The results showed that the mean
+        quality score of samples is representative for the original data,
+        illustrate the importance of sampling to reduce computing costs when
+        Big data quality evaluation is concerned. We applied the Quality results
+        generated as quality proposals on the original data to increase its
+        quality.', doi: 10.1109/UIC-ATC-ScalCom-CBDCom-IoP-SmartWorld.2016.0122,
+    year: '2016', title: 'Big Data Quality: A Quality Dimensions Evaluation',
+    author: 'Taleb, Ikbal and Kassabi, Hadeel T. El and Serhani, Mohamed Adel
+        and Dssouli, Rachida and Bouhaddioui, Chafik'}
+- {index: 9, abstract: 'Though the issues of data quality trace back their
+        origin to the early days of computing, the recent emergence of Big
+        Data has added more dimensions. Furthermore, given the range of Big
+        Data applications, potential consequences of bad data quality can
+        be for more disastrous and widespread. This paper provides a perspective
+        on data quality issues in the Big Data context. it also discusses
+        data integration issues that arise in biological databases and attendant
+        data quality issues.', doi: 10.1109/BigData.2015.7364065, year: '2015',
+    title: Data quality issues in big data, author: 'Rao, Dhana and Gudivada,
+        Venkat N and Raghavan, Vijay V.'}
+- {index: 10, abstract: 'Big Data has become an imminent part of all industries
+        and business sectors today. All organizations in any sector like energy,
+        banking, retail, hardware, networking, etc all generate huge quantum
+        of heterogenous data which if mined, processed and analyzed accurately
+        can reveal immensely useful patterns for business heads to apply to
+        generate and grow their businesses. Big Data helps in acquiring, processing
+        and analyzing large amounts of heterogeneous data to derive valuable
+        results. Quality of information is affected by size, speed and format
+        in which data is generated. Hence, Quality of Big Data is of great
+        relevance and importance. We propose addressing various aspects of
+        the raw data to improve its quality in the pre-processing stage, as
+        the raw data may not usable as-is. We are exploring process like Cleansing
+        to fix as much data as feasible, Noise filters to remove bad data,
+        as well sub-processes for Integration and Filtering along with Data
+        Transformation/Normalization. We evaluate and profile the Big Data
+        during acquisition stage, which is adapted to expectations to avoid
+        cost overheads later while also improving and leading to accurate
+        data analysis. Hence, it is imperative to improve Data quality even
+        it is absorbed and utilized in an industry''s Big Data system. In
+        this paper, we propose a Pre-Processing Framework to address quality
+        of data in a weather monitoring and forecasting application that also
+        takes into account global warming parameters and raises alerts/notifications
+        to warn users and scientists in advance.', doi: 10.1109/COMITCon.2019.8862267,
+    year: '2019', title: 'Big Data Quality Framework: Pre-Processing Data
+        in Weather Monitoring Application', author: 'Juneja, Ashish and Das,
+        Nripendra Narayan'}
+- {index: 11, abstract: 'Big data has been acknowledged for its enormous potential.
+        In contrast to the potential, in a recent survey more than half of
+        financial service organizations reported that big data has not delivered
+        the expected value. One of the main reasons for this is related to
+        data quality. The objective of this research is to identify the antecedents
+        of big data quality in financial institutions. This will help to understand
+        how data quality from big data analysis can be improved. For this,
+        a literature review was performed and data was collected using three
+        case studies, followed by content analysis. The overall findings indicate
+        that there are no fundamentally new data quality issues in big data
+        projects. Nevertheless, the complexity of the issues is higher, which
+        makes it harder to assess and attain data quality in big data projects
+        compared to the traditional projects. Ten antecedents of big data
+        quality were identified encompassing data, technology, people, process
+        and procedure, organization, and external aspects.', doi: 10.1109/BigData.2016.7840595,
+    year: '2016', title: 'Antecedents of big data quality: An empirical examination
+        in financial service organizations', author: 'Haryadi, Adiska Fardani
+        and Hulstijn, Joris and Wahyudi, Agung and van der Voort, Haiko and
+        Janssen, Marijn'}
+- {index: 12, abstract: 'With the rapid development of social networks, Internet
+        of things, Cloud computing as well as other technologies, big data
+        age is arriving. The increasing number of data has brought great value
+        to the public and enterprises. Meanwhile how to manage and use big
+        data better has become the focus of all walks of life. The 4V characteristics
+        of big data have brought a lot of issues to the big data processing.
+        The key to big data processing is to solve data quality issue, and
+        to ensure data quality is a prerequisite for the successful application
+        of big data technique. In this paper, we use recommendation systems
+        and prediction systems as typical big data applications, and try to
+        find out the data quality issues during data collection, data preprocessing,
+        data storage and data analysis stages of big data processing. According
+        to the elaboration and analysis of the proposed issues, the corresponding
+        solutions are also put forward. Finally, some open problems to be
+        solved in the future are also raised.', doi: 10.1109/UIC-ATC.2017.8397554,
+    year: '2017', title: 'Data quality in big data processing: Issues, solutions
+        and open problems', author: 'Zhang, Pengcheng and Xiong, Fang and
+        Gao, Jerry and Wang, Jimin'}
+- {index: 13, abstract: 'Current Conditional Functional Dependency (CFD) discovery
+        algorithms always need a well-prepared training dataset. This condition
+        makes them difficult to apply on large and low-quality datasets. To
+        handle the volume issue of big data, we develop the sampling algorithms
+        to obtain a small representative training set. We design the fault-tolerant
+        rule discovery and conflict-resolution algorithms to address the low-quality
+        issue of big data. We also propose parameter selection strategy to
+        ensure the effectiveness of CFD discovery algorithms. Experimental
+        results demonstrate that our method can discover effective CFD rules
+        on billion-tuple data within a reasonable period.', doi: 10.26599/BDMA.2019.9020019,
+    year: '2020', title: Mining conditional functional dependency rules on
+        big data, author: 'Li, Mingda and Wang, Hongzhi and Li, Jianzhong'}
+- {index: 14, abstract: 'The development of Big Data applications is not well-explored,
+        to our knowledge. Embracing Big Data in system building, questions
+        arise as to how to elicit, specify, analyse, model, and document Big
+        Data quality requirements. In our ongoing research, we explore a requirements
+        modelling language for Big Data software applications. In this paper,
+        we introduce QualiBD, a modelling tool that implements the proposed
+        goal-oriented requirements language that facilitates the modelling
+        of Big Data quality requirements.', doi: 10.1109/BigData47090.2019.9006294,
+    year: '2019', title: 'QualiBD: A Tool for Modelling Quality Requirements
+        for Big Data Applications', author: 'Arruda, Darlan and Madhavji,
+        Nazim H.'}
+- {index: 15, abstract: 'Currently, on-line monitoring and measuring system
+        of power quality has accumulated a huge amount of data. In the age
+        of big data, those data integrated from various systems will face
+        big data application problems. This paper proposes a data quality
+        assessment system method for on-line monitoring and measuring system
+        of power quality based on big data and data provenance to assess integrity,
+        redundancy, accuracy, timeliness, intelligence and consistency of
+        data set and single data. Specific assessment rule which conforms
+        to the situation of on-line monitoring and measuring system of power
+        quality will be devised to found data quality problems. Thus it will
+        provide strong data support for big data application of power quality.',
+    doi: 10.1109/ICCCBDA.2018.8386521, year: '2018', title: Data quality assessment
+        for on-line monitoring and measuring system of power quality based
+        on big data and data provenance theory, author: 'Hongxun, Tian and
+        Honggang, Wang and Kun, Zhou and Mingtai, Shi and Haosong, Li and
+        Zhongping, Xu and Taifeng, Kang and Jin, Li and Yaqi, Cai'}
+- {index: 16, abstract: 'Big Data quality is a field which is emerging. Many
+        authors nowadays agree that data quality is still very relevant, even
+        for Big Data uses. However, there is a lack of frameworks or guidelines
+        about how to carry out those big data quality initiatives. The starting
+        point of any data quality work is to determine the properties of data
+        quality, termed as data quality dimensions (DQDs). Even those dimensions
+        lack precise rigour in terms of definition from existing literature.
+        This current research aims to contribute towards identifying the most
+        important DQDs for big data in the health industry. It is a continuation
+        of a previous work, which already identified five most important DQDs,
+        using a human judgement based technique known as inner hermeneutic
+        cycle. To remove potential bias coming from the human judgement aspect,
+        this research uses the same set of literature but applies a statistical
+        technique known to extract knowledge from a set of documents known
+        as latent semantic analysis. The results confirm only 2 similar most
+        important DQDs, namely accuracy and completeness.', doi: 10.1109/ICABCD.2018.8465129,
+    year: '2018', title: Discovering Most Important Data Quality Dimensions
+        Using Latent Semantic Analysis, author: 'Juddoo, Suraj and George,
+        Carlisle'}
+- {index: 17, abstract: 'Currently, a large amount of data is amassed in electronic
+        health records (EHRs). However, EHR systems are largely information
+        silos, that is, uses of these systems are often confined to management
+        of patient information and analytics specific to a clinician''s practice.
+        A growing trend in healthcare is combining multiple databases to support
+        epidemiological research. The College Health Surveillance Network
+        is the first national data warehouse containing EHR data from 31 different
+        student health centers. Each member university contributes to the
+        data warehouse by uploading select EHR data including patient demographics,
+        diagnoses, and procedures to a common server on a monthly basis. In
+        this paper, we focus on the data quality dimensions from a subsample
+        of the data comprised of over 5.7 million patient visits for approximately
+        980,000 patients with 4,465 unique diagnoses from 23 of those universities.
+        We examine the data for measures of completeness, consistency, and
+        availability for secondary use for epidemiological research. Additionally,
+        clinical documentation practices and EHR vendor were evaluated as
+        potential contributors to data quality. We found that overall about
+        70% of the data in the data warehouse is available for secondary use,
+        and identified clinical documentation practices that are correlated
+        to a reduction in data quality. This suggests that automated quality
+        control and proactive clinical documentation support could reduce
+        ad-hoc data cleaning needs resulting in greater data availability
+        for secondary use.', doi: 10.1109/BigData.2015.7364060, year: '2015',
+    title: Evaluation of data quality of multisite electronic health record
+        data for secondary analysis, author: 'Nobles, Alicia L. and Vilankar,
+        Ketki and Wu, Hao and Barnes, Laura E.'}
+- {index: 18, abstract: 'Data quality assessment, management and improvement
+        is an integral part of any big data intensive scientific research
+        to ensure accurate, reliable, and reproducible scientific discoveries.
+        The task of maintaining the quality of data, however, is non-trivial
+        and poses a challenge for a program like the Department of Energy''s
+        Atmospheric Radiation Measurement (ARM) that collects data from hundreds
+        of instruments across the world, and distributes thousands of streaming
+        data products that are continuously produced in near-real-time for
+        an archive 1.7 Petabyte in size and growing. In this paper, we present
+        a computational data processing workflow to address the data quality
+        issues via an easy and intuitive web-based portal that allows reporting
+        of any quality issues for any site, facility or instruments at a granularity
+        down to individual variables in the data files. This portal allows
+        instrument specialists and scientists to provide corrective actions
+        in the form of symbolic equations. A parallel processing framework
+        applies the data improvement to a large volume of data in an efficient,
+        parallel environment, while optimizing data transfer and file I/O
+        operations; corrected files are then systematically versioned and
+        archived. A provenance tracking module tracks and records any change
+        made to the data during its entire life cycle which are communicated
+        transparently to the scientific users. Developed in Python using open
+        source technologies, this software architecture enables fast and efficient
+        management and improvement of data in an operational data center environment.',
+    doi: 10.1109/BigData47090.2019.9006358, year: '2019', title: "Provenance\u2013\
+        aware workflow for data quality management and improvement for large\
+        \ continuous scientific data streams", author: 'Kumar, Jitendra and
+        Crow, Michael C. and Devarakonda, Ranjeet and Giansiracusa, Michael
+        and Guntupally, Kavya and Olatt, Joseph V. and Price, Zach and Shanafield,
+        Harold A. and Singh, Alka'}
+- {index: 19, abstract: 'In the big data era, innovative technologies like
+        cloud computing, artificial intelligence, and machine learning are
+        increasingly utilized in the large-scale data management systems of
+        many industry sectors to make them more scalable and intelligent.
+        Applying them to automate and optimize earth observation data management
+        is a hot topic. To improve data quality control mechanisms, a machine
+        learning method in combination with built-in quality rules is presented
+        in this paper to evolve processes around data quality and enhance
+        management of earth observation data. The rules of quality check are
+        set up to detect the common issues, including data completeness, data
+        latency, bad data, and data duplication, and the machine learning
+        model is trained, tested, and deployed to address these quality issues
+        automatically and reduce manual efforts.', doi: 10.1109/IGARSS39084.2020.9323615,
+    year: '2020', title: A Machine Learning Approach for Data Quality Control
+        of Earth Observation Data Management System, author: 'Han, Weiguo
+        and Jochum, Matthew'}
+- {index: 20, abstract: 'Currently, as a result of the continuous increase
+        of data, one of the key issues is the development of systems and applications
+        to deal with storage, management and processing of big numbers of
+        data. These data are found in unstructured ways. Data management with
+        traditional approaches is inappropriate because of the large and complex
+        data sizes. Hadoop is a suitable solution for the continuous increase
+        in data sizes. The important characteristics of the Hadoop are distributed
+        processing, high storage space, and easy administration. Hadoop is
+        better known for distributed file systems. In this paper, we have
+        proposed techniques and algorithms that deal with big data including
+        data collecting, data preprocessing, algorithms for data cleaning,
+        A Technique for Converting Unstructured Data to Structured Data using
+        metadata, distributed data file system (fragmentation algorithm) and
+        Quality assurance algorithms by using the model is the statistical
+        model to evaluate the highest educational institutions. We concluded
+        that Metadata accelerates query response required and facilitates
+        query execution, metadata will be content for reports, fields and
+        descriptions. Total time access for three complex queries in distributed
+        processing it is 00: 03: 00 per second while in nondistributed processing
+        it is at 00: 15: 77 per second, average is approximately five minutes
+        per second. Quality assurance note values (T-test) is 0.239 and values
+        (T-dis) is 1.96, as a result of dealing with scientific sets and humanities
+        sets. In the comparison law, it can be deduced that if the t-test
+        is smaller than the t-dis; so there is no difference between the mean
+        of the scientific and humanities samples, the values of C.V for both
+        scientific is (8.585) and humanities sets is (7.427), using the law
+        of homogeneity know whether any sets are more homogeneous whenever
+        the value of a small C.V was more homogeneous however the humanity
+        set is more homogeneity.', doi: 10.1109/DeSE.2019.00072, year: '2019',
+    title: Data Quality Management for Big Data Applications, author: 'Khaleel,
+        Majida Yaseen and Hamad, Murtadha M.'}
+- {index: 21, abstract: 'Fueled with growth in the fields of Internet of Things
+        (IoT) and Big Data, data has become one of the most valuable assets
+        in today''s world. While we are leveraging this data for analyzing
+        complex systems using machine learning and deep learning, a considerable
+        amount of time and effort is spent on addressing data quality issues.
+        If undetected, data quality issues can cause large deviations in the
+        analysis, misleading data scientists. To ease the effort of identifying
+        and addressing data quality challenges, we introduce DQA, a scalable,
+        automated and interactive data quality advisor. In this paper, we
+        describe the DQA framework, provide detailed description of its components
+        and the benefits of integrating it in a data science process. We propose
+        a programmatic approach for implementing the data quality framework
+        which automatically generates dynamic executable graphs for performing
+        data validations fine-tuned for a given dataset. We discuss the use
+        of DQA to build a library of validation checks common to many applications.
+        We provide insight into how DQA addresses many persistence and usability
+        issues which currently make data cleaning a laborious task for data
+        scientists. Finally, we provide a case study of how DQA is implemented
+        in a realworld system and describe the benefits realized.', doi: 10.1109/BigData47090.2019.9006187,
+    year: '2019', title: 'DQA: Scalable, Automated and Interactive Data Quality
+        Advisor', author: 'Shrivastava, Shrey and Patel, Dhaval and Bhamidipaty,
+        Anuradha and Gifford, Wesley M. and Siegel, Stuart A. and Ganapavarapu,
+        Venkata Sitaramagiridharganesh and Kalagnanam, Jayant R.'}
+- {index: 22, abstract: 'Data quality management systems are thoroughly researched
+        topics and have resulted in many tools and techniques developed by
+        both academia and industry. However, the advent of Big Data might
+        pose some serious questions pertaining to the applicability of existing
+        data quality concepts. There is a debate concerning the importance
+        of data quality for Big Data; one school of thought argues that high
+        data quality methods are essential for deriving higher level analytics
+        while another school of thought argues that data quality level will
+        not be so important as the volume of Big Data would be used to produce
+        patterns and some amount of dirty data will not mask the analytic
+        results which might be derived. This paper aims to investigate various
+        components and activities forming part of data quality management
+        such as dimensions, metrics, data quality rules, data profiling and
+        data cleansing. The result list existing challenges and future research
+        areas associated with Big Data for data quality management.', doi: 10.1109/CCCS.2015.7374131,
+    year: '2015', title: Overview of data quality challenges in the context
+        of Big Data, author: 'Juddoo, Suraj'}
+- {index: 23, abstract: 'The quality of data for decision-making will always
+        be a major factor for companies that want to remain competitors. In
+        addition, the era of Big Data has brought new challenges for the processing,
+        management, storage of data and in particular the challenge represented
+        by the veracity of these data which is one of the 5Vs that characterizes
+        Big Data. This characteristic that defines the quality or reliability
+        of the data and its sources must be verified in the future systems
+        of each company. In this paper, we present an approach that helps
+        to improve the quality of Big Data by the distributed execution of
+        algorithms for detecting and correcting data errors. The idea is to
+        have a multi-agents model for errors detection and correction in big
+        data flow. This model linked to a repository specific to each company.
+        This repository contains the most frequent errors, metadata, error
+        types, error detection algorithms and error correction algorithms.
+        Each agent of this model represents an algorithm and will be deployed
+        in multiple instances when needed. The use of these agents will go
+        through two steps. In the first step, the detection agents and error
+        correction agents manage each flow entering the system in real time.
+        In the second step, all the processed data flows in first step will
+        be a dataset to which the error detection and correction agents are
+        applied in batch in order to process other types of errors. Among
+        architectures who allow this processing type, we have chosen Lambda
+        architecture.', doi: 10.1109/ICDS47004.2019.8942297, year: '2019',
+    title: Towards a multi-agents model for errors detection and correction
+        in big data flows, author: 'Snineh, Sidi Mohamed and Bouattane, Omar
+        and Youssfi, Mohamed and Daaif, Abdelaziz'}
+- {index: 24, abstract: 'Policy making has the strict requirement to rely
+        on quantitative and high quality information. This paper will address
+        the data quality issue for policy making by showing how to deal with
+        Big Data quality in the different steps of a processing pipeline,
+        with a focus on the integration of Big Data sources with traditional
+        sources. In this respect, a relevant role is played by metadata and
+        in particular by ontologies. Integration systems relying on ontologies
+        enable indeed a formal quality evaluation of inaccuracy, inconsistency
+        and incompleteness of integrated data. The paper will finally describe
+        data confidentiality as a Big Data quality dimension, showing the
+        main issues to be faced for its assurance.', doi: 10.1109/BigData.2017.8258267,
+    year: '2017', title: My (fair) big data, author: 'Catarci, Tiziana and
+        Scannapieco, Monica and Console, Marco and Demetrescu, Camil'}
+- {index: 0, abstract: 'Since a low-quality data may influence the effectiveness
+        and reliability of applications, data quality is required to be guaranteed.
+        Data quality assessment is considered as the foundation of the promotion
+        of data quality, so it is essential to access the data quality before
+        any other data related activities. In the electric power industry,
+        more and more electric power data is continuously accumulated, and
+        many electric power applications have been developed based on these
+        data. In China, the power grid has many special characteristic, traditional
+        big data assessment frameworks cannot be directly applied. Therefore,
+        a big data framework for electric power data quality assessment is
+        proposed. Based on big data techniques, the framework can accumulate
+        both the real-time data and the history data, provide an integrated
+        computation environment for electric power big data assessment, and
+        support the storage of different types of data.', doi: 10.1109/WISA.2017.29,
+    year: '2017', title: A Big Data Framework for Electric Power Data Quality
+        Assessment, author: 'Liu, He and Huang, Fupeng and Li, Han and Liu,
+        Weiwei and Wang, Tongxun'}
+- {index: 1, abstract: 'In the Big Data Era, data is the core for any governmental,
+        institutional, and private organization. Efforts were geared towards
+        extracting highly valuable insights that cannot happen if data is
+        of poor quality. Therefore, data quality (DQ) is considered as a key
+        element in Big data processing phase. In this stage, low quality data
+        is not penetrated to the Big Data value chain. This paper, addresses
+        the data quality rules discovery (DQR) after the evaluation of quality
+        and prior to Big Data pre-processing. We propose a DQR discovery model
+        to enhance and accurately target the pre-processing activities based
+        on quality requirements. We defined, a set of pre-processing activities
+        associated with data quality dimensions (DQD''s) to automatize the
+        DQR generation process. Rules optimization are applied on validated
+        rules to avoid multi-passes pre-processing activities and eliminates
+        duplicate rules. Conducted experiments showed an increased quality
+        scores after applying the discovered and optimized DQR''s on data.',
+    doi: 10.1109/BigDataCongress.2017.73, year: '2017', title: 'Big Data Pre-Processing:
+        Closing the Data Quality Enforcement Loop', author: 'Taleb, Ikbal
+        and Serhani, Mohamed Adel'}
+- {index: 2, abstract: "Data Profiling and data quality management become\
+        \ a more significant part of data engineering, which an essential\
+        \ part of ensuring that the system delivers quality information to\
+        \ users. In the last decade, data quality was considered to need more\
+        \ managing. Especially in the big data era that the data comes from\
+        \ many sources, many data types, and an enormous amount. Thus it makes\
+        \ the managing of data quality is more difficult and complicated.\
+        \ The traditional system was unable to respond as needed. The data\
+        \ quality managing software for big data was developed but often found\
+        \ in a high-priced, difficult to customize as needed, and mostly provide\
+        \ as GUI, which is challenging to integrate with other systems. From\
+        \ this problem, we have developed an opensource package for data quality\
+        \ managing. By using Python programming language, Which is a programming\
+        \ language that is widely used in the scientific and engineering field\
+        \ today. Because it is a programming language that is easy to read\
+        \ syntax, small, and has many additional packages to integrate. The\
+        \ software developed here is called \u201CSakdas\u201D this package\
+        \ has been divided into three parts. The first part deals with data\
+        \ profiling provide a set of data analyses to generate a data profile,\
+        \ and this profile will help to define the data quality rules. The\
+        \ second part deals with data quality auditing that users can set\
+        \ their own data quality rules for data quality measurement. The final\
+        \ part deals with data visualizing that provides data profiling and\
+        \ data auditing report to improve the data quality. The results of\
+        \ the profiling and auditing services, the user can specify both the\
+        \ form of a report for self-review. Or in the form of JSON for use\
+        \ in post-process automation.", doi: 10.1109/IBDAP50342.2020.9245455,
+    year: '2020', title: 'Sakdas: A Python Package for Data Profiling and
+        Data Quality Auditing', author: 'Loetpipatwanich, Sakda and Vichitthamaros,
+        Preecha'}
+- {index: 3, abstract: 'Big Data has gained an enormous momentum the past
+        few years because of the tremendous volume of generated and processed
+        Data from diverse application domains. Nowadays, it is estimated that
+        80% of all the generated data is unstructured. Evaluating the quality
+        of Big data has been identified to be essential to guarantee data
+        quality dimensions including for example completeness, and accuracy.
+        Current initiatives for unstructured data quality evaluation are still
+        under investigations. In this paper, we propose a quality evaluation
+        model to handle quality of Unstructured Big Data (UBD). The later
+        captures and discover first key properties of unstructured big data
+        and its characteristics, provides some comprehensive mechanisms to
+        sample, profile the UBD dataset and extract features and characteristics
+        from heterogeneous data types in different formats. A Data Quality
+        repository manage relationships between Data quality dimensions, quality
+        Metrics, features extraction methods, mining methodologies, data types
+        and data domains. An analysis of the samples provides a data profile
+        of UBD. This profile is extended to a quality profile that contains
+        the quality mapping with selected features for quality assessment.
+        We developed an UBD quality assessment model that handles all the
+        processes from the UBD profiling exploration to the Quality report.
+        The model provides an initial blueprint for quality estimation of
+        unstructured Big data. It also, states a set of quality characteristics
+        and indicators that can be used to outline an initial data quality
+        schema of UBD.', doi: 10.1109/INNOVATIONS.2018.8605945, year: '2018',
+    title: Big Data Quality Assessment Model for Unstructured Data, author: 'Taleb,
+        Ikbal and Serhani, Mohamed Adel and Dssouli, Rachida'}
+- {index: 4, abstract: 'This paper analyzed the challenges of data management
+        in army data engineering, such as big data volume, data heterogeneous,
+        high rate of data generation and update, high time requirement of
+        data processing, and widely separated data sources. We discussed the
+        disadvantages of traditional data management technologies to deal
+        with these problems. We also highlighted the key problems of data
+        management in army data engineering including data integration, data
+        analysis, representation of data analysis results, and evaluation
+        of data quality.', doi: 10.1109/ICBDA.2017.8078796, year: '2017',
+    title: Some key problems of data management in army data engineering based
+        on big data, author: 'HongJu, Xiao and Fei, Wang and FenMei, Wang
+        and XiuZhen, Wang'}
+- {index: 5, abstract: 'A USAF sponsored MITRE research team undertook four
+        separate, domain-specific case studies about Big Data applications.
+        Those case studies were initial investigations into the question of
+        whether or not data quality issues encountered in Big Data collections
+        are substantially different in cause, manifestation, or detection
+        than those data quality issues encountered in more traditionally sized
+        data collections. The study addresses several factors affecting Big
+        Data Quality at multiple levels, including collection, processing,
+        and storage. Though not unexpected, the key findings of this study
+        reinforce that the primary factors affecting Big Data reside in the
+        limitations and complexities involved with handling Big Data while
+        maintaining its integrity. These concerns are of a higher magnitude
+        than the provenance of the data, the processing, and the tools used
+        to prepare, manipulate, and store the data. Data quality is extremely
+        important for all data analytics problems. From the study''s findings,
+        the "truth about Big Data" is there are no fundamentally new DQ issues
+        in Big Data analytics projects. Some DQ issues exhibit return-s-to-scale
+        effects, and become more or less pronounced in Big Data analytics,
+        though. Big Data Quality varies from one type of Big Data to another
+        and from one Big Data technology to another.', doi: 10.1109/BigData.2015.7364064,
+    year: '2015', title: 'Big data, big data quality problem', author: 'Becker,
+        David and King, Trish Dunn and McMullen, Bill'}
+- {index: 6, abstract: 'Big data has been transformed into knowledge by information
+        systems to add value in businesses. Enterprises relying on it benefit
+        from risk management to a certain extent. The value, however, depends
+        on the quality of data. The quality needs to be verified before any
+        use of the data. Specifically, measuring the quality by simulating
+        the real life situation and even forecast it accurately turns into
+        a hot topic. In recent years, there have been numerous researches
+        on the measurement and assessment of data quality. These are yet to
+        utilize a scientific computational method for the measurement and
+        prediction. Current methods either fail to make an accurate prediction
+        or do not consider the correlation and time sequence factors of the
+        data. To address this, we design a model to extend machine learning
+        technique to business applications predicting this. Firstly, we implement
+        the model to detect data noises from a risk dataset according to an
+        international data quality standard from banking industry and then
+        estimate their impacts with Gaussian and Bayesian methods. Secondly,
+        we direct sequential learning in multiple deep neural networks for
+        the prediction with an attention mechanism. The model is experimented
+        with various network methodologies to show the predictive power of
+        machine learning technique and is evaluated by validation data to
+        confirm the model effectiveness. The model is scalable to apply to
+        any industries utilizing big data other than the banking industry.',
+    doi: 10.1109/DSAA49011.2020.00119, year: '2020', title: 'Big Data Quality
+        Prediction on Banking Applications: Extended Abstract', author: 'Wong,
+        Ka Yee. and Wong, Raymond K.'}
+- {index: 7, abstract: 'Big Data, is a growing technique these days. There
+        are many uses of Big Data; Artificial Intelligence, Health Care, Business,
+        and many more. For that reason, it becomes necessary to deal with
+        this massive volume of data with caution and care in a term to make
+        sure that the data used and produced is in high quality. Therefore,
+        the Big Data quality is must, and its rules have to be satisfied.
+        In this paper, the main Big Data Quality Factors, which need to be
+        measured, is presented in the perspective of the data itself, the
+        data management, data processing, and data users. This research highlights
+        the quality factors that may be used later to create different Big
+        Data quality models.', doi: 10.1109/ICBDCI.2019.8686099, year: '2019',
+    title: Big Data Quality Challenges, author: 'Abdallah, Mohammad'}
+- {index: 8, abstract: 'Data is the most valuable asset companies are proud
+        of. When its quality degrades, the consequences are unpredictable,
+        can lead to complete wrong insights. In Big Data context, evaluating
+        the data quality is challenging, must be done prior to any Big data
+        analytics by providing some data quality confidence. Given the huge
+        data size, its fast generation, it requires mechanisms, strategies
+        to evaluate, assess data quality in a fast, efficient way. However,
+        checking the Quality of Big Data is a very costly process if it is
+        applied on the entire data. In this paper, we propose an efficient
+        data quality evaluation scheme by applying sampling strategies on
+        Big data sets. The Sampling will reduce the data size to a representative
+        population samples for fast quality evaluation. The evaluation targeted
+        some data quality dimensions like completeness, consistency. The experimentations
+        have been conducted on Sleep disorder''s data set by applying Big
+        data bootstrap sampling techniques. The results showed that the mean
+        quality score of samples is representative for the original data,
+        illustrate the importance of sampling to reduce computing costs when
+        Big data quality evaluation is concerned. We applied the Quality results
+        generated as quality proposals on the original data to increase its
+        quality.', doi: 10.1109/UIC-ATC-ScalCom-CBDCom-IoP-SmartWorld.2016.0122,
+    year: '2016', title: 'Big Data Quality: A Quality Dimensions Evaluation',
+    author: 'Taleb, Ikbal and Kassabi, Hadeel T. El and Serhani, Mohamed Adel
+        and Dssouli, Rachida and Bouhaddioui, Chafik'}
+- {index: 9, abstract: 'Though the issues of data quality trace back their
+        origin to the early days of computing, the recent emergence of Big
+        Data has added more dimensions. Furthermore, given the range of Big
+        Data applications, potential consequences of bad data quality can
+        be for more disastrous and widespread. This paper provides a perspective
+        on data quality issues in the Big Data context. it also discusses
+        data integration issues that arise in biological databases and attendant
+        data quality issues.', doi: 10.1109/BigData.2015.7364065, year: '2015',
+    title: Data quality issues in big data, author: 'Rao, Dhana and Gudivada,
+        Venkat N and Raghavan, Vijay V.'}
+- {index: 10, abstract: 'Big Data has become an imminent part of all industries
+        and business sectors today. All organizations in any sector like energy,
+        banking, retail, hardware, networking, etc all generate huge quantum
+        of heterogenous data which if mined, processed and analyzed accurately
+        can reveal immensely useful patterns for business heads to apply to
+        generate and grow their businesses. Big Data helps in acquiring, processing
+        and analyzing large amounts of heterogeneous data to derive valuable
+        results. Quality of information is affected by size, speed and format
+        in which data is generated. Hence, Quality of Big Data is of great
+        relevance and importance. We propose addressing various aspects of
+        the raw data to improve its quality in the pre-processing stage, as
+        the raw data may not usable as-is. We are exploring process like Cleansing
+        to fix as much data as feasible, Noise filters to remove bad data,
+        as well sub-processes for Integration and Filtering along with Data
+        Transformation/Normalization. We evaluate and profile the Big Data
+        during acquisition stage, which is adapted to expectations to avoid
+        cost overheads later while also improving and leading to accurate
+        data analysis. Hence, it is imperative to improve Data quality even
+        it is absorbed and utilized in an industry''s Big Data system. In
+        this paper, we propose a Pre-Processing Framework to address quality
+        of data in a weather monitoring and forecasting application that also
+        takes into account global warming parameters and raises alerts/notifications
+        to warn users and scientists in advance.', doi: 10.1109/COMITCon.2019.8862267,
+    year: '2019', title: 'Big Data Quality Framework: Pre-Processing Data
+        in Weather Monitoring Application', author: 'Juneja, Ashish and Das,
+        Nripendra Narayan'}
+- {index: 11, abstract: 'Big data has been acknowledged for its enormous potential.
+        In contrast to the potential, in a recent survey more than half of
+        financial service organizations reported that big data has not delivered
+        the expected value. One of the main reasons for this is related to
+        data quality. The objective of this research is to identify the antecedents
+        of big data quality in financial institutions. This will help to understand
+        how data quality from big data analysis can be improved. For this,
+        a literature review was performed and data was collected using three
+        case studies, followed by content analysis. The overall findings indicate
+        that there are no fundamentally new data quality issues in big data
+        projects. Nevertheless, the complexity of the issues is higher, which
+        makes it harder to assess and attain data quality in big data projects
+        compared to the traditional projects. Ten antecedents of big data
+        quality were identified encompassing data, technology, people, process
+        and procedure, organization, and external aspects.', doi: 10.1109/BigData.2016.7840595,
+    year: '2016', title: 'Antecedents of big data quality: An empirical examination
+        in financial service organizations', author: 'Haryadi, Adiska Fardani
+        and Hulstijn, Joris and Wahyudi, Agung and van der Voort, Haiko and
+        Janssen, Marijn'}
+- {index: 12, abstract: 'With the rapid development of social networks, Internet
+        of things, Cloud computing as well as other technologies, big data
+        age is arriving. The increasing number of data has brought great value
+        to the public and enterprises. Meanwhile how to manage and use big
+        data better has become the focus of all walks of life. The 4V characteristics
+        of big data have brought a lot of issues to the big data processing.
+        The key to big data processing is to solve data quality issue, and
+        to ensure data quality is a prerequisite for the successful application
+        of big data technique. In this paper, we use recommendation systems
+        and prediction systems as typical big data applications, and try to
+        find out the data quality issues during data collection, data preprocessing,
+        data storage and data analysis stages of big data processing. According
+        to the elaboration and analysis of the proposed issues, the corresponding
+        solutions are also put forward. Finally, some open problems to be
+        solved in the future are also raised.', doi: 10.1109/UIC-ATC.2017.8397554,
+    year: '2017', title: 'Data quality in big data processing: Issues, solutions
+        and open problems', author: 'Zhang, Pengcheng and Xiong, Fang and
+        Gao, Jerry and Wang, Jimin'}
+- {index: 13, abstract: 'Current Conditional Functional Dependency (CFD) discovery
+        algorithms always need a well-prepared training dataset. This condition
+        makes them difficult to apply on large and low-quality datasets. To
+        handle the volume issue of big data, we develop the sampling algorithms
+        to obtain a small representative training set. We design the fault-tolerant
+        rule discovery and conflict-resolution algorithms to address the low-quality
+        issue of big data. We also propose parameter selection strategy to
+        ensure the effectiveness of CFD discovery algorithms. Experimental
+        results demonstrate that our method can discover effective CFD rules
+        on billion-tuple data within a reasonable period.', doi: 10.26599/BDMA.2019.9020019,
+    year: '2020', title: Mining conditional functional dependency rules on
+        big data, author: 'Li, Mingda and Wang, Hongzhi and Li, Jianzhong'}
+- {index: 14, abstract: 'The development of Big Data applications is not well-explored,
+        to our knowledge. Embracing Big Data in system building, questions
+        arise as to how to elicit, specify, analyse, model, and document Big
+        Data quality requirements. In our ongoing research, we explore a requirements
+        modelling language for Big Data software applications. In this paper,
+        we introduce QualiBD, a modelling tool that implements the proposed
+        goal-oriented requirements language that facilitates the modelling
+        of Big Data quality requirements.', doi: 10.1109/BigData47090.2019.9006294,
+    year: '2019', title: 'QualiBD: A Tool for Modelling Quality Requirements
+        for Big Data Applications', author: 'Arruda, Darlan and Madhavji,
+        Nazim H.'}
+- {index: 15, abstract: 'Currently, on-line monitoring and measuring system
+        of power quality has accumulated a huge amount of data. In the age
+        of big data, those data integrated from various systems will face
+        big data application problems. This paper proposes a data quality
+        assessment system method for on-line monitoring and measuring system
+        of power quality based on big data and data provenance to assess integrity,
+        redundancy, accuracy, timeliness, intelligence and consistency of
+        data set and single data. Specific assessment rule which conforms
+        to the situation of on-line monitoring and measuring system of power
+        quality will be devised to found data quality problems. Thus it will
+        provide strong data support for big data application of power quality.',
+    doi: 10.1109/ICCCBDA.2018.8386521, year: '2018', title: Data quality assessment
+        for on-line monitoring and measuring system of power quality based
+        on big data and data provenance theory, author: 'Hongxun, Tian and
+        Honggang, Wang and Kun, Zhou and Mingtai, Shi and Haosong, Li and
+        Zhongping, Xu and Taifeng, Kang and Jin, Li and Yaqi, Cai'}
+- {index: 16, abstract: 'Big Data quality is a field which is emerging. Many
+        authors nowadays agree that data quality is still very relevant, even
+        for Big Data uses. However, there is a lack of frameworks or guidelines
+        about how to carry out those big data quality initiatives. The starting
+        point of any data quality work is to determine the properties of data
+        quality, termed as data quality dimensions (DQDs). Even those dimensions
+        lack precise rigour in terms of definition from existing literature.
+        This current research aims to contribute towards identifying the most
+        important DQDs for big data in the health industry. It is a continuation
+        of a previous work, which already identified five most important DQDs,
+        using a human judgement based technique known as inner hermeneutic
+        cycle. To remove potential bias coming from the human judgement aspect,
+        this research uses the same set of literature but applies a statistical
+        technique known to extract knowledge from a set of documents known
+        as latent semantic analysis. The results confirm only 2 similar most
+        important DQDs, namely accuracy and completeness.', doi: 10.1109/ICABCD.2018.8465129,
+    year: '2018', title: Discovering Most Important Data Quality Dimensions
+        Using Latent Semantic Analysis, author: 'Juddoo, Suraj and George,
+        Carlisle'}
+- {index: 17, abstract: 'Currently, a large amount of data is amassed in electronic
+        health records (EHRs). However, EHR systems are largely information
+        silos, that is, uses of these systems are often confined to management
+        of patient information and analytics specific to a clinician''s practice.
+        A growing trend in healthcare is combining multiple databases to support
+        epidemiological research. The College Health Surveillance Network
+        is the first national data warehouse containing EHR data from 31 different
+        student health centers. Each member university contributes to the
+        data warehouse by uploading select EHR data including patient demographics,
+        diagnoses, and procedures to a common server on a monthly basis. In
+        this paper, we focus on the data quality dimensions from a subsample
+        of the data comprised of over 5.7 million patient visits for approximately
+        980,000 patients with 4,465 unique diagnoses from 23 of those universities.
+        We examine the data for measures of completeness, consistency, and
+        availability for secondary use for epidemiological research. Additionally,
+        clinical documentation practices and EHR vendor were evaluated as
+        potential contributors to data quality. We found that overall about
+        70% of the data in the data warehouse is available for secondary use,
+        and identified clinical documentation practices that are correlated
+        to a reduction in data quality. This suggests that automated quality
+        control and proactive clinical documentation support could reduce
+        ad-hoc data cleaning needs resulting in greater data availability
+        for secondary use.', doi: 10.1109/BigData.2015.7364060, year: '2015',
+    title: Evaluation of data quality of multisite electronic health record
+        data for secondary analysis, author: 'Nobles, Alicia L. and Vilankar,
+        Ketki and Wu, Hao and Barnes, Laura E.'}
+- {index: 18, abstract: 'Data quality assessment, management and improvement
+        is an integral part of any big data intensive scientific research
+        to ensure accurate, reliable, and reproducible scientific discoveries.
+        The task of maintaining the quality of data, however, is non-trivial
+        and poses a challenge for a program like the Department of Energy''s
+        Atmospheric Radiation Measurement (ARM) that collects data from hundreds
+        of instruments across the world, and distributes thousands of streaming
+        data products that are continuously produced in near-real-time for
+        an archive 1.7 Petabyte in size and growing. In this paper, we present
+        a computational data processing workflow to address the data quality
+        issues via an easy and intuitive web-based portal that allows reporting
+        of any quality issues for any site, facility or instruments at a granularity
+        down to individual variables in the data files. This portal allows
+        instrument specialists and scientists to provide corrective actions
+        in the form of symbolic equations. A parallel processing framework
+        applies the data improvement to a large volume of data in an efficient,
+        parallel environment, while optimizing data transfer and file I/O
+        operations; corrected files are then systematically versioned and
+        archived. A provenance tracking module tracks and records any change
+        made to the data during its entire life cycle which are communicated
+        transparently to the scientific users. Developed in Python using open
+        source technologies, this software architecture enables fast and efficient
+        management and improvement of data in an operational data center environment.',
+    doi: 10.1109/BigData47090.2019.9006358, year: '2019', title: "Provenance\u2013\
+        aware workflow for data quality management and improvement for large\
+        \ continuous scientific data streams", author: 'Kumar, Jitendra and
+        Crow, Michael C. and Devarakonda, Ranjeet and Giansiracusa, Michael
+        and Guntupally, Kavya and Olatt, Joseph V. and Price, Zach and Shanafield,
+        Harold A. and Singh, Alka'}
+- {index: 19, abstract: 'In the big data era, innovative technologies like
+        cloud computing, artificial intelligence, and machine learning are
+        increasingly utilized in the large-scale data management systems of
+        many industry sectors to make them more scalable and intelligent.
+        Applying them to automate and optimize earth observation data management
+        is a hot topic. To improve data quality control mechanisms, a machine
+        learning method in combination with built-in quality rules is presented
+        in this paper to evolve processes around data quality and enhance
+        management of earth observation data. The rules of quality check are
+        set up to detect the common issues, including data completeness, data
+        latency, bad data, and data duplication, and the machine learning
+        model is trained, tested, and deployed to address these quality issues
+        automatically and reduce manual efforts.', doi: 10.1109/IGARSS39084.2020.9323615,
+    year: '2020', title: A Machine Learning Approach for Data Quality Control
+        of Earth Observation Data Management System, author: 'Han, Weiguo
+        and Jochum, Matthew'}
+- {index: 20, abstract: 'Currently, as a result of the continuous increase
+        of data, one of the key issues is the development of systems and applications
+        to deal with storage, management and processing of big numbers of
+        data. These data are found in unstructured ways. Data management with
+        traditional approaches is inappropriate because of the large and complex
+        data sizes. Hadoop is a suitable solution for the continuous increase
+        in data sizes. The important characteristics of the Hadoop are distributed
+        processing, high storage space, and easy administration. Hadoop is
+        better known for distributed file systems. In this paper, we have
+        proposed techniques and algorithms that deal with big data including
+        data collecting, data preprocessing, algorithms for data cleaning,
+        A Technique for Converting Unstructured Data to Structured Data using
+        metadata, distributed data file system (fragmentation algorithm) and
+        Quality assurance algorithms by using the model is the statistical
+        model to evaluate the highest educational institutions. We concluded
+        that Metadata accelerates query response required and facilitates
+        query execution, metadata will be content for reports, fields and
+        descriptions. Total time access for three complex queries in distributed
+        processing it is 00: 03: 00 per second while in nondistributed processing
+        it is at 00: 15: 77 per second, average is approximately five minutes
+        per second. Quality assurance note values (T-test) is 0.239 and values
+        (T-dis) is 1.96, as a result of dealing with scientific sets and humanities
+        sets. In the comparison law, it can be deduced that if the t-test
+        is smaller than the t-dis; so there is no difference between the mean
+        of the scientific and humanities samples, the values of C.V for both
+        scientific is (8.585) and humanities sets is (7.427), using the law
+        of homogeneity know whether any sets are more homogeneous whenever
+        the value of a small C.V was more homogeneous however the humanity
+        set is more homogeneity.', doi: 10.1109/DeSE.2019.00072, year: '2019',
+    title: Data Quality Management for Big Data Applications, author: 'Khaleel,
+        Majida Yaseen and Hamad, Murtadha M.'}
+- {index: 21, abstract: 'Fueled with growth in the fields of Internet of Things
+        (IoT) and Big Data, data has become one of the most valuable assets
+        in today''s world. While we are leveraging this data for analyzing
+        complex systems using machine learning and deep learning, a considerable
+        amount of time and effort is spent on addressing data quality issues.
+        If undetected, data quality issues can cause large deviations in the
+        analysis, misleading data scientists. To ease the effort of identifying
+        and addressing data quality challenges, we introduce DQA, a scalable,
+        automated and interactive data quality advisor. In this paper, we
+        describe the DQA framework, provide detailed description of its components
+        and the benefits of integrating it in a data science process. We propose
+        a programmatic approach for implementing the data quality framework
+        which automatically generates dynamic executable graphs for performing
+        data validations fine-tuned for a given dataset. We discuss the use
+        of DQA to build a library of validation checks common to many applications.
+        We provide insight into how DQA addresses many persistence and usability
+        issues which currently make data cleaning a laborious task for data
+        scientists. Finally, we provide a case study of how DQA is implemented
+        in a realworld system and describe the benefits realized.', doi: 10.1109/BigData47090.2019.9006187,
+    year: '2019', title: 'DQA: Scalable, Automated and Interactive Data Quality
+        Advisor', author: 'Shrivastava, Shrey and Patel, Dhaval and Bhamidipaty,
+        Anuradha and Gifford, Wesley M. and Siegel, Stuart A. and Ganapavarapu,
+        Venkata Sitaramagiridharganesh and Kalagnanam, Jayant R.'}
+- {index: 22, abstract: 'Data quality management systems are thoroughly researched
+        topics and have resulted in many tools and techniques developed by
+        both academia and industry. However, the advent of Big Data might
+        pose some serious questions pertaining to the applicability of existing
+        data quality concepts. There is a debate concerning the importance
+        of data quality for Big Data; one school of thought argues that high
+        data quality methods are essential for deriving higher level analytics
+        while another school of thought argues that data quality level will
+        not be so important as the volume of Big Data would be used to produce
+        patterns and some amount of dirty data will not mask the analytic
+        results which might be derived. This paper aims to investigate various
+        components and activities forming part of data quality management
+        such as dimensions, metrics, data quality rules, data profiling and
+        data cleansing. The result list existing challenges and future research
+        areas associated with Big Data for data quality management.', doi: 10.1109/CCCS.2015.7374131,
+    year: '2015', title: Overview of data quality challenges in the context
+        of Big Data, author: 'Juddoo, Suraj'}
+- {index: 23, abstract: 'The quality of data for decision-making will always
+        be a major factor for companies that want to remain competitors. In
+        addition, the era of Big Data has brought new challenges for the processing,
+        management, storage of data and in particular the challenge represented
+        by the veracity of these data which is one of the 5Vs that characterizes
+        Big Data. This characteristic that defines the quality or reliability
+        of the data and its sources must be verified in the future systems
+        of each company. In this paper, we present an approach that helps
+        to improve the quality of Big Data by the distributed execution of
+        algorithms for detecting and correcting data errors. The idea is to
+        have a multi-agents model for errors detection and correction in big
+        data flow. This model linked to a repository specific to each company.
+        This repository contains the most frequent errors, metadata, error
+        types, error detection algorithms and error correction algorithms.
+        Each agent of this model represents an algorithm and will be deployed
+        in multiple instances when needed. The use of these agents will go
+        through two steps. In the first step, the detection agents and error
+        correction agents manage each flow entering the system in real time.
+        In the second step, all the processed data flows in first step will
+        be a dataset to which the error detection and correction agents are
+        applied in batch in order to process other types of errors. Among
+        architectures who allow this processing type, we have chosen Lambda
+        architecture.', doi: 10.1109/ICDS47004.2019.8942297, year: '2019',
+    title: Towards a multi-agents model for errors detection and correction
+        in big data flows, author: 'Snineh, Sidi Mohamed and Bouattane, Omar
+        and Youssfi, Mohamed and Daaif, Abdelaziz'}
+- {index: 24, abstract: 'Policy making has the strict requirement to rely
+        on quantitative and high quality information. This paper will address
+        the data quality issue for policy making by showing how to deal with
+        Big Data quality in the different steps of a processing pipeline,
+        with a focus on the integration of Big Data sources with traditional
+        sources. In this respect, a relevant role is played by metadata and
+        in particular by ontologies. Integration systems relying on ontologies
+        enable indeed a formal quality evaluation of inaccuracy, inconsistency
+        and incompleteness of integrated data. The paper will finally describe
+        data confidentiality as a Big Data quality dimension, showing the
+        main issues to be faced for its assurance.', doi: 10.1109/BigData.2017.8258267,
+    year: '2017', title: My (fair) big data, author: 'Catarci, Tiziana and
+        Scannapieco, Monica and Console, Marco and Demetrescu, Camil'}
+- {index: 0, abstract: 'Since a low-quality data may influence the effectiveness
+        and reliability of applications, data quality is required to be guaranteed.
+        Data quality assessment is considered as the foundation of the promotion
+        of data quality, so it is essential to access the data quality before
+        any other data related activities. In the electric power industry,
+        more and more electric power data is continuously accumulated, and
+        many electric power applications have been developed based on these
+        data. In China, the power grid has many special characteristic, traditional
+        big data assessment frameworks cannot be directly applied. Therefore,
+        a big data framework for electric power data quality assessment is
+        proposed. Based on big data techniques, the framework can accumulate
+        both the real-time data and the history data, provide an integrated
+        computation environment for electric power big data assessment, and
+        support the storage of different types of data.', doi: 10.1109/WISA.2017.29,
+    year: '2017', title: A Big Data Framework for Electric Power Data Quality
+        Assessment, author: 'Liu, He and Huang, Fupeng and Li, Han and Liu,
+        Weiwei and Wang, Tongxun'}
+- {index: 1, abstract: 'In the Big Data Era, data is the core for any governmental,
+        institutional, and private organization. Efforts were geared towards
+        extracting highly valuable insights that cannot happen if data is
+        of poor quality. Therefore, data quality (DQ) is considered as a key
+        element in Big data processing phase. In this stage, low quality data
+        is not penetrated to the Big Data value chain. This paper, addresses
+        the data quality rules discovery (DQR) after the evaluation of quality
+        and prior to Big Data pre-processing. We propose a DQR discovery model
+        to enhance and accurately target the pre-processing activities based
+        on quality requirements. We defined, a set of pre-processing activities
+        associated with data quality dimensions (DQD''s) to automatize the
+        DQR generation process. Rules optimization are applied on validated
+        rules to avoid multi-passes pre-processing activities and eliminates
+        duplicate rules. Conducted experiments showed an increased quality
+        scores after applying the discovered and optimized DQR''s on data.',
+    doi: 10.1109/BigDataCongress.2017.73, year: '2017', title: 'Big Data Pre-Processing:
+        Closing the Data Quality Enforcement Loop', author: 'Taleb, Ikbal
+        and Serhani, Mohamed Adel'}
+- {index: 2, abstract: "Data Profiling and data quality management become\
+        \ a more significant part of data engineering, which an essential\
+        \ part of ensuring that the system delivers quality information to\
+        \ users. In the last decade, data quality was considered to need more\
+        \ managing. Especially in the big data era that the data comes from\
+        \ many sources, many data types, and an enormous amount. Thus it makes\
+        \ the managing of data quality is more difficult and complicated.\
+        \ The traditional system was unable to respond as needed. The data\
+        \ quality managing software for big data was developed but often found\
+        \ in a high-priced, difficult to customize as needed, and mostly provide\
+        \ as GUI, which is challenging to integrate with other systems. From\
+        \ this problem, we have developed an opensource package for data quality\
+        \ managing. By using Python programming language, Which is a programming\
+        \ language that is widely used in the scientific and engineering field\
+        \ today. Because it is a programming language that is easy to read\
+        \ syntax, small, and has many additional packages to integrate. The\
+        \ software developed here is called \u201CSakdas\u201D this package\
+        \ has been divided into three parts. The first part deals with data\
+        \ profiling provide a set of data analyses to generate a data profile,\
+        \ and this profile will help to define the data quality rules. The\
+        \ second part deals with data quality auditing that users can set\
+        \ their own data quality rules for data quality measurement. The final\
+        \ part deals with data visualizing that provides data profiling and\
+        \ data auditing report to improve the data quality. The results of\
+        \ the profiling and auditing services, the user can specify both the\
+        \ form of a report for self-review. Or in the form of JSON for use\
+        \ in post-process automation.", doi: 10.1109/IBDAP50342.2020.9245455,
+    year: '2020', title: 'Sakdas: A Python Package for Data Profiling and
+        Data Quality Auditing', author: 'Loetpipatwanich, Sakda and Vichitthamaros,
+        Preecha'}
+- {index: 3, abstract: 'Big Data has gained an enormous momentum the past
+        few years because of the tremendous volume of generated and processed
+        Data from diverse application domains. Nowadays, it is estimated that
+        80% of all the generated data is unstructured. Evaluating the quality
+        of Big data has been identified to be essential to guarantee data
+        quality dimensions including for example completeness, and accuracy.
+        Current initiatives for unstructured data quality evaluation are still
+        under investigations. In this paper, we propose a quality evaluation
+        model to handle quality of Unstructured Big Data (UBD). The later
+        captures and discover first key properties of unstructured big data
+        and its characteristics, provides some comprehensive mechanisms to
+        sample, profile the UBD dataset and extract features and characteristics
+        from heterogeneous data types in different formats. A Data Quality
+        repository manage relationships between Data quality dimensions, quality
+        Metrics, features extraction methods, mining methodologies, data types
+        and data domains. An analysis of the samples provides a data profile
+        of UBD. This profile is extended to a quality profile that contains
+        the quality mapping with selected features for quality assessment.
+        We developed an UBD quality assessment model that handles all the
+        processes from the UBD profiling exploration to the Quality report.
+        The model provides an initial blueprint for quality estimation of
+        unstructured Big data. It also, states a set of quality characteristics
+        and indicators that can be used to outline an initial data quality
+        schema of UBD.', doi: 10.1109/INNOVATIONS.2018.8605945, year: '2018',
+    title: Big Data Quality Assessment Model for Unstructured Data, author: 'Taleb,
+        Ikbal and Serhani, Mohamed Adel and Dssouli, Rachida'}
+- {index: 4, abstract: 'This paper analyzed the challenges of data management
+        in army data engineering, such as big data volume, data heterogeneous,
+        high rate of data generation and update, high time requirement of
+        data processing, and widely separated data sources. We discussed the
+        disadvantages of traditional data management technologies to deal
+        with these problems. We also highlighted the key problems of data
+        management in army data engineering including data integration, data
+        analysis, representation of data analysis results, and evaluation
+        of data quality.', doi: 10.1109/ICBDA.2017.8078796, year: '2017',
+    title: Some key problems of data management in army data engineering based
+        on big data, author: 'HongJu, Xiao and Fei, Wang and FenMei, Wang
+        and XiuZhen, Wang'}
+- {index: 5, abstract: 'A USAF sponsored MITRE research team undertook four
+        separate, domain-specific case studies about Big Data applications.
+        Those case studies were initial investigations into the question of
+        whether or not data quality issues encountered in Big Data collections
+        are substantially different in cause, manifestation, or detection
+        than those data quality issues encountered in more traditionally sized
+        data collections. The study addresses several factors affecting Big
+        Data Quality at multiple levels, including collection, processing,
+        and storage. Though not unexpected, the key findings of this study
+        reinforce that the primary factors affecting Big Data reside in the
+        limitations and complexities involved with handling Big Data while
+        maintaining its integrity. These concerns are of a higher magnitude
+        than the provenance of the data, the processing, and the tools used
+        to prepare, manipulate, and store the data. Data quality is extremely
+        important for all data analytics problems. From the study''s findings,
+        the "truth about Big Data" is there are no fundamentally new DQ issues
+        in Big Data analytics projects. Some DQ issues exhibit return-s-to-scale
+        effects, and become more or less pronounced in Big Data analytics,
+        though. Big Data Quality varies from one type of Big Data to another
+        and from one Big Data technology to another.', doi: 10.1109/BigData.2015.7364064,
+    year: '2015', title: 'Big data, big data quality problem', author: 'Becker,
+        David and King, Trish Dunn and McMullen, Bill'}
+- {index: 6, abstract: 'Big data has been transformed into knowledge by information
+        systems to add value in businesses. Enterprises relying on it benefit
+        from risk management to a certain extent. The value, however, depends
+        on the quality of data. The quality needs to be verified before any
+        use of the data. Specifically, measuring the quality by simulating
+        the real life situation and even forecast it accurately turns into
+        a hot topic. In recent years, there have been numerous researches
+        on the measurement and assessment of data quality. These are yet to
+        utilize a scientific computational method for the measurement and
+        prediction. Current methods either fail to make an accurate prediction
+        or do not consider the correlation and time sequence factors of the
+        data. To address this, we design a model to extend machine learning
+        technique to business applications predicting this. Firstly, we implement
+        the model to detect data noises from a risk dataset according to an
+        international data quality standard from banking industry and then
+        estimate their impacts with Gaussian and Bayesian methods. Secondly,
+        we direct sequential learning in multiple deep neural networks for
+        the prediction with an attention mechanism. The model is experimented
+        with various network methodologies to show the predictive power of
+        machine learning technique and is evaluated by validation data to
+        confirm the model effectiveness. The model is scalable to apply to
+        any industries utilizing big data other than the banking industry.',
+    doi: 10.1109/DSAA49011.2020.00119, year: '2020', title: 'Big Data Quality
+        Prediction on Banking Applications: Extended Abstract', author: 'Wong,
+        Ka Yee. and Wong, Raymond K.'}
+- {index: 7, abstract: 'Big Data, is a growing technique these days. There
+        are many uses of Big Data; Artificial Intelligence, Health Care, Business,
+        and many more. For that reason, it becomes necessary to deal with
+        this massive volume of data with caution and care in a term to make
+        sure that the data used and produced is in high quality. Therefore,
+        the Big Data quality is must, and its rules have to be satisfied.
+        In this paper, the main Big Data Quality Factors, which need to be
+        measured, is presented in the perspective of the data itself, the
+        data management, data processing, and data users. This research highlights
+        the quality factors that may be used later to create different Big
+        Data quality models.', doi: 10.1109/ICBDCI.2019.8686099, year: '2019',
+    title: Big Data Quality Challenges, author: 'Abdallah, Mohammad'}
+- {index: 8, abstract: 'Data is the most valuable asset companies are proud
+        of. When its quality degrades, the consequences are unpredictable,
+        can lead to complete wrong insights. In Big Data context, evaluating
+        the data quality is challenging, must be done prior to any Big data
+        analytics by providing some data quality confidence. Given the huge
+        data size, its fast generation, it requires mechanisms, strategies
+        to evaluate, assess data quality in a fast, efficient way. However,
+        checking the Quality of Big Data is a very costly process if it is
+        applied on the entire data. In this paper, we propose an efficient
+        data quality evaluation scheme by applying sampling strategies on
+        Big data sets. The Sampling will reduce the data size to a representative
+        population samples for fast quality evaluation. The evaluation targeted
+        some data quality dimensions like completeness, consistency. The experimentations
+        have been conducted on Sleep disorder''s data set by applying Big
+        data bootstrap sampling techniques. The results showed that the mean
+        quality score of samples is representative for the original data,
+        illustrate the importance of sampling to reduce computing costs when
+        Big data quality evaluation is concerned. We applied the Quality results
+        generated as quality proposals on the original data to increase its
+        quality.', doi: 10.1109/UIC-ATC-ScalCom-CBDCom-IoP-SmartWorld.2016.0122,
+    year: '2016', title: 'Big Data Quality: A Quality Dimensions Evaluation',
+    author: 'Taleb, Ikbal and Kassabi, Hadeel T. El and Serhani, Mohamed Adel
+        and Dssouli, Rachida and Bouhaddioui, Chafik'}
+- {index: 9, abstract: 'Though the issues of data quality trace back their
+        origin to the early days of computing, the recent emergence of Big
+        Data has added more dimensions. Furthermore, given the range of Big
+        Data applications, potential consequences of bad data quality can
+        be for more disastrous and widespread. This paper provides a perspective
+        on data quality issues in the Big Data context. it also discusses
+        data integration issues that arise in biological databases and attendant
+        data quality issues.', doi: 10.1109/BigData.2015.7364065, year: '2015',
+    title: Data quality issues in big data, author: 'Rao, Dhana and Gudivada,
+        Venkat N and Raghavan, Vijay V.'}
+- {index: 10, abstract: 'Big Data has become an imminent part of all industries
+        and business sectors today. All organizations in any sector like energy,
+        banking, retail, hardware, networking, etc all generate huge quantum
+        of heterogenous data which if mined, processed and analyzed accurately
+        can reveal immensely useful patterns for business heads to apply to
+        generate and grow their businesses. Big Data helps in acquiring, processing
+        and analyzing large amounts of heterogeneous data to derive valuable
+        results. Quality of information is affected by size, speed and format
+        in which data is generated. Hence, Quality of Big Data is of great
+        relevance and importance. We propose addressing various aspects of
+        the raw data to improve its quality in the pre-processing stage, as
+        the raw data may not usable as-is. We are exploring process like Cleansing
+        to fix as much data as feasible, Noise filters to remove bad data,
+        as well sub-processes for Integration and Filtering along with Data
+        Transformation/Normalization. We evaluate and profile the Big Data
+        during acquisition stage, which is adapted to expectations to avoid
+        cost overheads later while also improving and leading to accurate
+        data analysis. Hence, it is imperative to improve Data quality even
+        it is absorbed and utilized in an industry''s Big Data system. In
+        this paper, we propose a Pre-Processing Framework to address quality
+        of data in a weather monitoring and forecasting application that also
+        takes into account global warming parameters and raises alerts/notifications
+        to warn users and scientists in advance.', doi: 10.1109/COMITCon.2019.8862267,
+    year: '2019', title: 'Big Data Quality Framework: Pre-Processing Data
+        in Weather Monitoring Application', author: 'Juneja, Ashish and Das,
+        Nripendra Narayan'}
+- {index: 11, abstract: 'Big data has been acknowledged for its enormous potential.
+        In contrast to the potential, in a recent survey more than half of
+        financial service organizations reported that big data has not delivered
+        the expected value. One of the main reasons for this is related to
+        data quality. The objective of this research is to identify the antecedents
+        of big data quality in financial institutions. This will help to understand
+        how data quality from big data analysis can be improved. For this,
+        a literature review was performed and data was collected using three
+        case studies, followed by content analysis. The overall findings indicate
+        that there are no fundamentally new data quality issues in big data
+        projects. Nevertheless, the complexity of the issues is higher, which
+        makes it harder to assess and attain data quality in big data projects
+        compared to the traditional projects. Ten antecedents of big data
+        quality were identified encompassing data, technology, people, process
+        and procedure, organization, and external aspects.', doi: 10.1109/BigData.2016.7840595,
+    year: '2016', title: 'Antecedents of big data quality: An empirical examination
+        in financial service organizations', author: 'Haryadi, Adiska Fardani
+        and Hulstijn, Joris and Wahyudi, Agung and van der Voort, Haiko and
+        Janssen, Marijn'}
+- {index: 12, abstract: 'With the rapid development of social networks, Internet
+        of things, Cloud computing as well as other technologies, big data
+        age is arriving. The increasing number of data has brought great value
+        to the public and enterprises. Meanwhile how to manage and use big
+        data better has become the focus of all walks of life. The 4V characteristics
+        of big data have brought a lot of issues to the big data processing.
+        The key to big data processing is to solve data quality issue, and
+        to ensure data quality is a prerequisite for the successful application
+        of big data technique. In this paper, we use recommendation systems
+        and prediction systems as typical big data applications, and try to
+        find out the data quality issues during data collection, data preprocessing,
+        data storage and data analysis stages of big data processing. According
+        to the elaboration and analysis of the proposed issues, the corresponding
+        solutions are also put forward. Finally, some open problems to be
+        solved in the future are also raised.', doi: 10.1109/UIC-ATC.2017.8397554,
+    year: '2017', title: 'Data quality in big data processing: Issues, solutions
+        and open problems', author: 'Zhang, Pengcheng and Xiong, Fang and
+        Gao, Jerry and Wang, Jimin'}
+- {index: 13, abstract: 'Current Conditional Functional Dependency (CFD) discovery
+        algorithms always need a well-prepared training dataset. This condition
+        makes them difficult to apply on large and low-quality datasets. To
+        handle the volume issue of big data, we develop the sampling algorithms
+        to obtain a small representative training set. We design the fault-tolerant
+        rule discovery and conflict-resolution algorithms to address the low-quality
+        issue of big data. We also propose parameter selection strategy to
+        ensure the effectiveness of CFD discovery algorithms. Experimental
+        results demonstrate that our method can discover effective CFD rules
+        on billion-tuple data within a reasonable period.', doi: 10.26599/BDMA.2019.9020019,
+    year: '2020', title: Mining conditional functional dependency rules on
+        big data, author: 'Li, Mingda and Wang, Hongzhi and Li, Jianzhong'}
+- {index: 14, abstract: 'The development of Big Data applications is not well-explored,
+        to our knowledge. Embracing Big Data in system building, questions
+        arise as to how to elicit, specify, analyse, model, and document Big
+        Data quality requirements. In our ongoing research, we explore a requirements
+        modelling language for Big Data software applications. In this paper,
+        we introduce QualiBD, a modelling tool that implements the proposed
+        goal-oriented requirements language that facilitates the modelling
+        of Big Data quality requirements.', doi: 10.1109/BigData47090.2019.9006294,
+    year: '2019', title: 'QualiBD: A Tool for Modelling Quality Requirements
+        for Big Data Applications', author: 'Arruda, Darlan and Madhavji,
+        Nazim H.'}
+- {index: 15, abstract: 'Currently, on-line monitoring and measuring system
+        of power quality has accumulated a huge amount of data. In the age
+        of big data, those data integrated from various systems will face
+        big data application problems. This paper proposes a data quality
+        assessment system method for on-line monitoring and measuring system
+        of power quality based on big data and data provenance to assess integrity,
+        redundancy, accuracy, timeliness, intelligence and consistency of
+        data set and single data. Specific assessment rule which conforms
+        to the situation of on-line monitoring and measuring system of power
+        quality will be devised to found data quality problems. Thus it will
+        provide strong data support for big data application of power quality.',
+    doi: 10.1109/ICCCBDA.2018.8386521, year: '2018', title: Data quality assessment
+        for on-line monitoring and measuring system of power quality based
+        on big data and data provenance theory, author: 'Hongxun, Tian and
+        Honggang, Wang and Kun, Zhou and Mingtai, Shi and Haosong, Li and
+        Zhongping, Xu and Taifeng, Kang and Jin, Li and Yaqi, Cai'}
+- {index: 16, abstract: 'Big Data quality is a field which is emerging. Many
+        authors nowadays agree that data quality is still very relevant, even
+        for Big Data uses. However, there is a lack of frameworks or guidelines
+        about how to carry out those big data quality initiatives. The starting
+        point of any data quality work is to determine the properties of data
+        quality, termed as data quality dimensions (DQDs). Even those dimensions
+        lack precise rigour in terms of definition from existing literature.
+        This current research aims to contribute towards identifying the most
+        important DQDs for big data in the health industry. It is a continuation
+        of a previous work, which already identified five most important DQDs,
+        using a human judgement based technique known as inner hermeneutic
+        cycle. To remove potential bias coming from the human judgement aspect,
+        this research uses the same set of literature but applies a statistical
+        technique known to extract knowledge from a set of documents known
+        as latent semantic analysis. The results confirm only 2 similar most
+        important DQDs, namely accuracy and completeness.', doi: 10.1109/ICABCD.2018.8465129,
+    year: '2018', title: Discovering Most Important Data Quality Dimensions
+        Using Latent Semantic Analysis, author: 'Juddoo, Suraj and George,
+        Carlisle'}
+- {index: 17, abstract: 'Currently, a large amount of data is amassed in electronic
+        health records (EHRs). However, EHR systems are largely information
+        silos, that is, uses of these systems are often confined to management
+        of patient information and analytics specific to a clinician''s practice.
+        A growing trend in healthcare is combining multiple databases to support
+        epidemiological research. The College Health Surveillance Network
+        is the first national data warehouse containing EHR data from 31 different
+        student health centers. Each member university contributes to the
+        data warehouse by uploading select EHR data including patient demographics,
+        diagnoses, and procedures to a common server on a monthly basis. In
+        this paper, we focus on the data quality dimensions from a subsample
+        of the data comprised of over 5.7 million patient visits for approximately
+        980,000 patients with 4,465 unique diagnoses from 23 of those universities.
+        We examine the data for measures of completeness, consistency, and
+        availability for secondary use for epidemiological research. Additionally,
+        clinical documentation practices and EHR vendor were evaluated as
+        potential contributors to data quality. We found that overall about
+        70% of the data in the data warehouse is available for secondary use,
+        and identified clinical documentation practices that are correlated
+        to a reduction in data quality. This suggests that automated quality
+        control and proactive clinical documentation support could reduce
+        ad-hoc data cleaning needs resulting in greater data availability
+        for secondary use.', doi: 10.1109/BigData.2015.7364060, year: '2015',
+    title: Evaluation of data quality of multisite electronic health record
+        data for secondary analysis, author: 'Nobles, Alicia L. and Vilankar,
+        Ketki and Wu, Hao and Barnes, Laura E.'}
+- {index: 18, abstract: 'Data quality assessment, management and improvement
+        is an integral part of any big data intensive scientific research
+        to ensure accurate, reliable, and reproducible scientific discoveries.
+        The task of maintaining the quality of data, however, is non-trivial
+        and poses a challenge for a program like the Department of Energy''s
+        Atmospheric Radiation Measurement (ARM) that collects data from hundreds
+        of instruments across the world, and distributes thousands of streaming
+        data products that are continuously produced in near-real-time for
+        an archive 1.7 Petabyte in size and growing. In this paper, we present
+        a computational data processing workflow to address the data quality
+        issues via an easy and intuitive web-based portal that allows reporting
+        of any quality issues for any site, facility or instruments at a granularity
+        down to individual variables in the data files. This portal allows
+        instrument specialists and scientists to provide corrective actions
+        in the form of symbolic equations. A parallel processing framework
+        applies the data improvement to a large volume of data in an efficient,
+        parallel environment, while optimizing data transfer and file I/O
+        operations; corrected files are then systematically versioned and
+        archived. A provenance tracking module tracks and records any change
+        made to the data during its entire life cycle which are communicated
+        transparently to the scientific users. Developed in Python using open
+        source technologies, this software architecture enables fast and efficient
+        management and improvement of data in an operational data center environment.',
+    doi: 10.1109/BigData47090.2019.9006358, year: '2019', title: "Provenance\u2013\
+        aware workflow for data quality management and improvement for large\
+        \ continuous scientific data streams", author: 'Kumar, Jitendra and
+        Crow, Michael C. and Devarakonda, Ranjeet and Giansiracusa, Michael
+        and Guntupally, Kavya and Olatt, Joseph V. and Price, Zach and Shanafield,
+        Harold A. and Singh, Alka'}
+- {index: 19, abstract: 'In the big data era, innovative technologies like
+        cloud computing, artificial intelligence, and machine learning are
+        increasingly utilized in the large-scale data management systems of
+        many industry sectors to make them more scalable and intelligent.
+        Applying them to automate and optimize earth observation data management
+        is a hot topic. To improve data quality control mechanisms, a machine
+        learning method in combination with built-in quality rules is presented
+        in this paper to evolve processes around data quality and enhance
+        management of earth observation data. The rules of quality check are
+        set up to detect the common issues, including data completeness, data
+        latency, bad data, and data duplication, and the machine learning
+        model is trained, tested, and deployed to address these quality issues
+        automatically and reduce manual efforts.', doi: 10.1109/IGARSS39084.2020.9323615,
+    year: '2020', title: A Machine Learning Approach for Data Quality Control
+        of Earth Observation Data Management System, author: 'Han, Weiguo
+        and Jochum, Matthew'}
+- {index: 20, abstract: 'Currently, as a result of the continuous increase
+        of data, one of the key issues is the development of systems and applications
+        to deal with storage, management and processing of big numbers of
+        data. These data are found in unstructured ways. Data management with
+        traditional approaches is inappropriate because of the large and complex
+        data sizes. Hadoop is a suitable solution for the continuous increase
+        in data sizes. The important characteristics of the Hadoop are distributed
+        processing, high storage space, and easy administration. Hadoop is
+        better known for distributed file systems. In this paper, we have
+        proposed techniques and algorithms that deal with big data including
+        data collecting, data preprocessing, algorithms for data cleaning,
+        A Technique for Converting Unstructured Data to Structured Data using
+        metadata, distributed data file system (fragmentation algorithm) and
+        Quality assurance algorithms by using the model is the statistical
+        model to evaluate the highest educational institutions. We concluded
+        that Metadata accelerates query response required and facilitates
+        query execution, metadata will be content for reports, fields and
+        descriptions. Total time access for three complex queries in distributed
+        processing it is 00: 03: 00 per second while in nondistributed processing
+        it is at 00: 15: 77 per second, average is approximately five minutes
+        per second. Quality assurance note values (T-test) is 0.239 and values
+        (T-dis) is 1.96, as a result of dealing with scientific sets and humanities
+        sets. In the comparison law, it can be deduced that if the t-test
+        is smaller than the t-dis; so there is no difference between the mean
+        of the scientific and humanities samples, the values of C.V for both
+        scientific is (8.585) and humanities sets is (7.427), using the law
+        of homogeneity know whether any sets are more homogeneous whenever
+        the value of a small C.V was more homogeneous however the humanity
+        set is more homogeneity.', doi: 10.1109/DeSE.2019.00072, year: '2019',
+    title: Data Quality Management for Big Data Applications, author: 'Khaleel,
+        Majida Yaseen and Hamad, Murtadha M.'}
+- {index: 21, abstract: 'Fueled with growth in the fields of Internet of Things
+        (IoT) and Big Data, data has become one of the most valuable assets
+        in today''s world. While we are leveraging this data for analyzing
+        complex systems using machine learning and deep learning, a considerable
+        amount of time and effort is spent on addressing data quality issues.
+        If undetected, data quality issues can cause large deviations in the
+        analysis, misleading data scientists. To ease the effort of identifying
+        and addressing data quality challenges, we introduce DQA, a scalable,
+        automated and interactive data quality advisor. In this paper, we
+        describe the DQA framework, provide detailed description of its components
+        and the benefits of integrating it in a data science process. We propose
+        a programmatic approach for implementing the data quality framework
+        which automatically generates dynamic executable graphs for performing
+        data validations fine-tuned for a given dataset. We discuss the use
+        of DQA to build a library of validation checks common to many applications.
+        We provide insight into how DQA addresses many persistence and usability
+        issues which currently make data cleaning a laborious task for data
+        scientists. Finally, we provide a case study of how DQA is implemented
+        in a realworld system and describe the benefits realized.', doi: 10.1109/BigData47090.2019.9006187,
+    year: '2019', title: 'DQA: Scalable, Automated and Interactive Data Quality
+        Advisor', author: 'Shrivastava, Shrey and Patel, Dhaval and Bhamidipaty,
+        Anuradha and Gifford, Wesley M. and Siegel, Stuart A. and Ganapavarapu,
+        Venkata Sitaramagiridharganesh and Kalagnanam, Jayant R.'}
+- {index: 22, abstract: 'Data quality management systems are thoroughly researched
+        topics and have resulted in many tools and techniques developed by
+        both academia and industry. However, the advent of Big Data might
+        pose some serious questions pertaining to the applicability of existing
+        data quality concepts. There is a debate concerning the importance
+        of data quality for Big Data; one school of thought argues that high
+        data quality methods are essential for deriving higher level analytics
+        while another school of thought argues that data quality level will
+        not be so important as the volume of Big Data would be used to produce
+        patterns and some amount of dirty data will not mask the analytic
+        results which might be derived. This paper aims to investigate various
+        components and activities forming part of data quality management
+        such as dimensions, metrics, data quality rules, data profiling and
+        data cleansing. The result list existing challenges and future research
+        areas associated with Big Data for data quality management.', doi: 10.1109/CCCS.2015.7374131,
+    year: '2015', title: Overview of data quality challenges in the context
+        of Big Data, author: 'Juddoo, Suraj'}
+- {index: 23, abstract: 'The quality of data for decision-making will always
+        be a major factor for companies that want to remain competitors. In
+        addition, the era of Big Data has brought new challenges for the processing,
+        management, storage of data and in particular the challenge represented
+        by the veracity of these data which is one of the 5Vs that characterizes
+        Big Data. This characteristic that defines the quality or reliability
+        of the data and its sources must be verified in the future systems
+        of each company. In this paper, we present an approach that helps
+        to improve the quality of Big Data by the distributed execution of
+        algorithms for detecting and correcting data errors. The idea is to
+        have a multi-agents model for errors detection and correction in big
+        data flow. This model linked to a repository specific to each company.
+        This repository contains the most frequent errors, metadata, error
+        types, error detection algorithms and error correction algorithms.
+        Each agent of this model represents an algorithm and will be deployed
+        in multiple instances when needed. The use of these agents will go
+        through two steps. In the first step, the detection agents and error
+        correction agents manage each flow entering the system in real time.
+        In the second step, all the processed data flows in first step will
+        be a dataset to which the error detection and correction agents are
+        applied in batch in order to process other types of errors. Among
+        architectures who allow this processing type, we have chosen Lambda
+        architecture.', doi: 10.1109/ICDS47004.2019.8942297, year: '2019',
+    title: Towards a multi-agents model for errors detection and correction
+        in big data flows, author: 'Snineh, Sidi Mohamed and Bouattane, Omar
+        and Youssfi, Mohamed and Daaif, Abdelaziz'}
+- {index: 24, abstract: 'Policy making has the strict requirement to rely
+        on quantitative and high quality information. This paper will address
+        the data quality issue for policy making by showing how to deal with
+        Big Data quality in the different steps of a processing pipeline,
+        with a focus on the integration of Big Data sources with traditional
+        sources. In this respect, a relevant role is played by metadata and
+        in particular by ontologies. Integration systems relying on ontologies
+        enable indeed a formal quality evaluation of inaccuracy, inconsistency
+        and incompleteness of integrated data. The paper will finally describe
+        data confidentiality as a Big Data quality dimension, showing the
+        main issues to be faced for its assurance.', doi: 10.1109/BigData.2017.8258267,
+    year: '2017', title: My (fair) big data, author: 'Catarci, Tiziana and
+        Scannapieco, Monica and Console, Marco and Demetrescu, Camil'}
