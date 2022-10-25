@@ -1,0 +1,1182 @@
+[
+    {
+        "task_key": "Index-0",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 0
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-1",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 1
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-2",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 2
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-3",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 3
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-4",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 4
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-5",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 5
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-6",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 6
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-7",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 7
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-8",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 8
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-9",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 9
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-10",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 10
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-11",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 11
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-12",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 12
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-13",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 13
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-14",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 14
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-15",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 15
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-16",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 16
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-17",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 17
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-18",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 18
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-19",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 19
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-20",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 20
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-21",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 21
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-22",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 22
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-23",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 23
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-24",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 24
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-25",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 25
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-26",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 26
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-27",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 27
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-28",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 28
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-29",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 29
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-30",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 30
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-31",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 31
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-32",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 32
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-33",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 33
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-34",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 34
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-35",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 35
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-36",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 36
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-37",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 37
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-38",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 38
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-39",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 39
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-40",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 40
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-41",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 41
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-42",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 42
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-43",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 43
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-44",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 44
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-45",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 45
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-46",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 46
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-47",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 47
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-48",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 48
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-49",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 49
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-50",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 50
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-51",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 51
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-52",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 52
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-53",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 53
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-54",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 54
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-55",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 55
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-56",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 56
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-57",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 57
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    },
+    {
+        "task_key": "Index-58",
+        "depends_on": [
+            {
+                "task_key": "Task1"
+            }
+        ],
+        "notebook_task": {
+            "notebook_path": "/Repos/joao.marcos@medway.com.br/analytics-produto-residencia/src/02-raw-archive/databricks/jobs/bronze/RA-BRO - Extração do Postgres",
+            "base_parameters": {
+                "index": 58
+            },
+            "source": "WORKSPACE"
+        },
+        "existing_cluster_id": "0613-103649-53t94lff",
+        "max_retries": -1,
+        "min_retry_interval_millis": 900000,
+        "retry_on_timeout": "false",
+        "email_notifications": {}
+    }
+]
